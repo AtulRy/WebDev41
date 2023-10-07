@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: center;
 }
-h1{
+.title h1 { 
     font-family: Poppins;
     font-weight: 800;
     font-size: 20rem;
@@ -31,3 +31,49 @@ h1{
     width: 80%;
     
 }
+ .smalrect{ 
+    
+    background-color: #040D12C2;
+    padding-top: 70px;
+    width: 1350px;
+    height: 700px;
+    top: 305px;
+    left: -497px;
+    border-radius: 40px;
+
+}
+.aboutUs h1{
+    font-size: 70px;
+    font-weight: 700;
+    font-family:Poppins ;
+    text-align: center;
+}
+
+   .aboutUs{  
+
+    top: 258px;
+    left: -549px;
+    background-repeat: no-repeat;
+    color: #D6D5C5;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 50px;
+    background-image: url('images/pexels-simon-berger-688660\ 1.jpg') ;
+    background-size: 100%;
+    
+ }
+ .aboutUs p{
+    font-family:Poppins ;
+    width:1200px ;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    position: relative;
+    bottom: 475px;
+    left: 65px;
+ }
+
+ 
+
+
+
