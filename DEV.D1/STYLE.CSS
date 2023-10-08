@@ -175,6 +175,19 @@ header{
     color: #162938;
     text-decoration: underline;
 }
+.btn {
+    width: 100%;
+    height: 45px;
+    background: #162938;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #FFF;
+    font-weight: 500;
+    
+}
 
 
 
