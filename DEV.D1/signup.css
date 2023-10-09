@@ -13,10 +13,10 @@ section {
     background-size: cover;
     background-position: center;
 }
-.login-box{
+.registerbox{
     position: relative;
     width: 400px;
-    height: 450px;
+    height: 550px;
     background: transparent;
     border: 2px solid rgba(14, 12, 36, 0.5);
     border-radius: 20px;
@@ -26,7 +26,7 @@ section {
     align-items: center;
 }
 h2{
-    font-size: 2em;
+    font-size: 1.8em;
     color: #162a39;
     text-align: center;
 }
@@ -34,14 +34,14 @@ h2{
     position: relative;
     width: 310px;
     border-bottom: 2px solid #162938;
-    margin: 30px 0;
+    margin: 13px;
 } 
 .input-box label{
     position: absolute;
     top: 50%;
     left: 5px;
     transform: translateY(-50%);
-    font-size: 1em;
+    font-size: 0.85em;
     color: #162938;
     font-weight: 500;
     pointer-events: none;
@@ -73,7 +73,7 @@ top: -5px;
 .remember-forgot {
     font-size: 0.7em;
     color: #162938;
-    margin: -15px 0 15px;
+    margin: -1px 0 15px;
     display: flex;
     justify-content: center;
 }
@@ -84,9 +84,6 @@ top: -5px;
     color: #162938;
     text-decoration:none;
     font-weight: 600;
-}
-.remember-forgot label{
-    float: right;
 }
 .remember-forgot label a:hover{
     text-decoration: underline;
@@ -106,7 +103,7 @@ button{
     font-size: .75em;
     color: #162938;
     text-align: center;
-    margin: 25px 0 10px;
+    margin: 10px 0 10px;
 }
 .register p a{
     text-decoration: none;
