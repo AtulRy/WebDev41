@@ -4,18 +4,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+.menuClass{
+    
+    margin: 0 20px 0 0;
+    margin-top: 50px;
+    margin-right: 50px;
+/* padding-left: 1.25em; */
+cursor: pointer;
+position: relative;
+text-align: right;
+float: right;
+/* background-color: green; */
+position: absolute;
+right: 10px;
+}
+.menu{
+    width: 60px;
+    height: 60px;
+    fill: #C5D2D8;
+}
 .coverPage{
-    height: 100vh;
+    height: auto;
     width: 100%;
     background-color: #040D12;
+ 
+}
+.wrapper{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0;
+    /* background-color: red; */
+    
 }
 .title h1 { 
     font-family: Poppins;
     font-weight: 800;
-    font-size: 20rem;
+    font-size: 18rem;
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
@@ -25,10 +50,16 @@
     -webkit-background-clip: text;
     background-attachment: fixed;
     color: transparent;
+    lin
 }
 .title{
     /* background-color: red; */
     width: 80%;
+    background-image: url("images/R.png");
+    background-repeat: no-repeat;
+    /* background-color: red; */
+    background-position: center;
+    background-size: contain;
     
 }
  .smalrect{ 
