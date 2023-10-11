@@ -124,4 +124,13 @@ input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+.home-button a> img{
+    width: 6vh;
+    height: 6vh;
+    margin: 0%;
+    padding: 0%;
+    position:relative;
+    bottom: 39vh;
+    right: 60vh;
+}
 
