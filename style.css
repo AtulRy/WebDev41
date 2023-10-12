@@ -73,27 +73,20 @@ right: 10px;
     display: flex;
     justify-content: center;
  }
- .smalrect{
-    width: 90%;
-    text-align: center;
-    background-color: rgba(4, 13, 18, 0.76);
-    border-radius: 23px;
-    margin-top: 70px;
-    margin-bottom: 70px;
-    
 
- }
 .aboutUs h2{
-    font-family: poppins;
-    font-size: 8em;
+    font-family: poppins;text-align: center;
+    position: relative;
+    bottom: 2vh;
+    font-size: 6em;
     font-weight: 600;
     color: #D6D5C5;
     margin-top: 30px;
 }
 .aboutUs p{
     font-family: poppins;
+    text-align: center;
     color: #FFFFFF;
-    font-size: 2em;
 }
 .txt{
     width: 90%;
@@ -103,6 +96,20 @@ right: 10px;
 .paraWrapper{
     display: flex;
     justify-content: center;
+}
+.paraWrapper .txt>p {
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh ;
+    font-size: 25px;
+}
+.smalrect{
+        width: 100%;
+        text-align: justify ;
+        background-color: rgba(4, 13, 18, 0.76);
+        
+    
 }
 
 
