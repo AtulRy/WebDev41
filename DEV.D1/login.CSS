@@ -143,3 +143,6 @@ input::-webkit-inner-spin-button {
 .home{
     border:none ;
 }
+.backbutton{
+    text-align: left;
+}
