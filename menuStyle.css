@@ -39,18 +39,25 @@ nav ul li a{
     margin-top: 100px;
 }
 .login-link{
-    background-color: #040D12;
+    outline: 3px solid #4a6279;
+    /* background-color: #4a6279; */
     border-radius: 60px;
-    padding: 30px;
+    padding: 20px;
+    transition:0.7s;
+    font-weight: 400;
+}
+.login-link:hover{
+    background-color: antiquewhite;
+    color: #4a6279;
 }
 
-.login-link::after{
+/* .login-link::after{
     background-color: #D6D5C5;
 }
 .login-link:hover:after{
     transition:  0.5s;
-}
-nav ul li a::after{
+} */
+.items::after{
   content: '';  
   height: 3px;
   width: 0;
