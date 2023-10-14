@@ -11,6 +11,9 @@
     <link rel="icon" type="image/x-icon" href="./images/R.png">
 </head>
 <body>
+  <!-- <div class="pre"> 
+
+  </div> -->
   <div class="scrollbar"> 
     <div class="coverPage">
         <DIV class="full-menu">
@@ -71,6 +74,12 @@
       </svg></div>
 
     <script>
+
+      var loader=document.getElementsByClassName("pre");
+        window.addEventListener("load",function(){
+          loader.style.display="none";
+        })
+
         var menu = document.getElementById("menu") 
   
         function closemenu(){
@@ -96,6 +105,9 @@
           
           document.querySelector(".view").style.display = window.scrollY > 0 ? 'display' : 'none';
         });
+
+        
+        
      </script>
   
 </body>
