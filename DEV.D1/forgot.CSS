@@ -5,15 +5,12 @@
     font-family: 'Poppins',SANS-SERIF;
 }
 section {
-    margin: 0;
-    padding: 0;
+    height:100vh ;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* min-height: 100vh; */
     background: url('pinkbg.jpeg') no-repeat;
-    height:100vh ;
-    width: 100vw;
     background-size: cover;
     background-position: center;
 }
