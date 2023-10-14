@@ -3,6 +3,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+    
+}
+
+*, html {
+
+    scroll-behavior: smooth ;
 }
 .menuClass{
     
@@ -112,5 +119,26 @@ right: 10px;
     
 }
 
-
+.scrollTop{
+    background-color: green;
+    width: 75px;
+    height: 75px;
+    position:fixed;
+    right: 30px;
+    bottom: 30px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    cursor: pointer;
+    animation: fadeIn 0.5s;
+    
+}
+@keyframes fadeIn {
+    0% { bottom: -100px; opacity: 50%;}
+    100% { bottom: 30px; opacity: 100%; }
+  }
+.scrollTop *{
+    font-size: 60px;
+}
 
