@@ -5,7 +5,7 @@ const hbs=require("hbs")
 const collection=require("./mongodb")
 
 const templatePath=path.join(__dirname,"../templates")
-
+app.use(express.static(path.join(__dirname, '/public')));
 app.use(express.json())
 app.set("view engine","hbs")
 app.set("views",templatePath)
