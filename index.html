@@ -55,7 +55,10 @@
 
   
 
-    <div onclick="scrollToTop()" class="scrollTop"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" width="20px" height="20px"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/></svg></div>
+    <div onclick="scrollToTop()" class="scrollTop view">
+      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" width="20px" height="20px"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+        <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/>
+      </svg></div>
 
     <script>
         var menu = document.getElementById("menu") 
@@ -68,9 +71,16 @@
         }
 
         function scrollToTop(){
-          window.scrollTo(0,0);
+          window.scrollTo({top:0,behaviour:"smooth"});
+          
 
         }
+        window.addEventListener('scroll', e => {
+         
+          document.querySelector(".view").style.display = window.scrollY > 100 ? 'display' : 'flex';
+          
+          document.querySelector(".view").style.display = window.scrollY > 0 ? 'display' : 'none';
+        });
      </script>
 </body>
 </html>
