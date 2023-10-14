@@ -59,6 +59,7 @@ right: 10px;
     background-size: contain;
     background-position: 30%;
     color: transparent;
+    margin-top: 50px;
     
 }
 .title{
@@ -85,10 +86,10 @@ right: 10px;
     font-family: poppins;text-align: center;
     position: relative;
     bottom: 2vh;
-    font-size: 6em;
+    font-size: 10em;
     font-weight: 600;
     color: #D6D5C5;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 .aboutUs p{
     font-family: poppins;
@@ -108,19 +109,25 @@ right: 10px;
     
     display: flex;
     justify-content: center;
-    padding-top: 5vh ;
-    font-size: 25px;
+    /* padding-top: 5vh ; */
+    font-size: 30px;
 }
 .smalrect{
         width: 100%;
         text-align: justify ;
-        background-color: rgba(4, 13, 18, 0.76);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(4, 13, 18, 0.5);
         
     
 }
-
+.about-container{
+    /* background-color: red; */
+    width: 90%;
+}
 .scrollTop{
-    background-color: green;
+    background-color: #829BAF;
     width: 75px;
     height: 75px;
     position:fixed;
@@ -140,5 +147,6 @@ right: 10px;
   }
 .scrollTop *{
     font-size: 60px;
+    
 }
 

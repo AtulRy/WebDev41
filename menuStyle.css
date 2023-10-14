@@ -16,6 +16,7 @@ nav{
     justify-content: center;
    transition: 1s;
    /* background-color: red; */
+   
 
 }
 nav ul li{
@@ -86,4 +87,15 @@ nav ul li a:hover:after{
     width: 50px;
     position: relative;
     cursor: pointer;
+}
+.overflow-class{
+    overflow:hidden;
+}
+#menu svg{
+    width:75px;
+   position: absolute;
+   right: 80px;
+   top: 50px;
+   cursor: pointer; 
+   fill: #D6D5C5;
 }
