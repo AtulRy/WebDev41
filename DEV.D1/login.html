@@ -9,9 +9,9 @@
     <link rel="icon" type="image/x-icon" href="/images/R.png">
  </head>
  <body>
-    <div class="backbutton">
-        <button  class="home"><ion-icon name="arrow-back-outline"></ion-icon><p>Home</p></button>
-    </div>
+    <!-- <nav class="Home">
+        <div class="backbutton"><button  class="home"><ion-icon name="home"></ion-icon><p>home</p></button></div>
+    </nav> -->
     <section>
         <div class="login-box">
             <div class="login-value">
@@ -27,29 +27,35 @@
                         <input type="password" required>
                         <label for="">Password</label>
                     </div>
-                    <div class="remember">
-                     <label><input type="checkbox">Remember me</label>
-                    </div>
-                    <div class="forgot">
-                        <a href="forgot.html">Forgot Password?</a>
+                    <div class="remember-forgot">
+                        <div class="remember">
+                            <label><input type="checkbox"> Remember me</label>
+                        </div>
+                        <div class="forgot">
+                            <a href="forgot.html">Forgot Password?</a>
+                        </div>
+                    </div> 
+                    <div class="button">
+                        <button>Login</button>
                     </div>
                     <div class="label">
-                        <hr class="leftline"><label>Or</label><hr class="rightline">
+                        <label>Or</label>
                     </div>
-                    <div class="google">
-                        <img src="google.png">
-                        <button></button>
-                        <p>google</p>
-                    </div>
-                    <div class="fb">
-                        <img src="fb.png">
-                        <button></button>
-                        <p>facebook</p>
-                    </div>
-                    <button>Login</button>
-                        <div class="register">
-                            <p>Don't have an account?<a href="signup.html" class="Register-Link">Register</a></p>
+                    <div class="google-fb">
+                        <div class="google">
+                            <img src="google.png">
+                            <button></button>
+                            <p>google</p>
                         </div>
+                        <div class="fb">
+                            <img src="fb.png">
+                            <button></button>
+                            <p>facebook</p>
+                        </div>
+                    </div>
+                        <div class="register">
+                        <p>Don't have an account?<a href="signup.html" class="Register-Link">Register</a></p>
+                    </div>
                  </form>
             </div>
         </div>

@@ -5,25 +5,33 @@
     font-family: 'Poppins',SANS-SERIF;
 }
 .home{
-    border:none ;
+    border:none;
 }
-.backbutton{
-    text-align: left;
+.Home{
+    background-color: transparent;
 }
-section {
+body{
     height:100vh ;
     width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background: url('pinkbg.jpeg') no-repeat;
     background-size: cover;
     background-position: center;
 }
+section {
+    /* height:100%;
+    width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: url('pinkbg.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
 .login-box{
+    /* margin: 50px 50px 50px 50px; */
     position: relative;
     width: 400px;
-    height: 450px;
+    height: 470px;
     background: transparent;
     border: 2px solid rgba(14, 12, 36, 0.5);
     border-radius: 20px;
@@ -36,26 +44,26 @@ h2{
     font-size: 2em;
     color: #07111a;
     text-align: center;
-    top: 40px;
+    top: 25px;
 }
 .input-box {
     position: relative;
     width: 310px;
     border-bottom: 3px solid #07111a;
-    top: 50px;
+    top: 25px;
+    margin: 0px 60px 0px 60px;
 } 
 .input-box input{
     width: 100%;
-    height: 60px;
+    height: 65px;
     background: transparent;
     border: none;
     outline: none;
     font-size: 1em;
-    color:  #07111a;
 }
 .input-box label{
     position: absolute;
-    top: 40px;
+    top: 48px;
     left: 5px;
     transform: translateY(-50%);
     font-size: 1em;
@@ -68,21 +76,25 @@ h2{
     position: absolute;
     right: 8px;
     font-size: 1.2em;
-    top: 30px;
+    top: 40px;
     color: #07111a;
 }
 input:focus~label,
 input:valid~label
 {
-top: 10px;
+top:20px;
+} 
+.remember-forgot{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 50px; 
 }
 .remember{
     font-size: 0.8em;
     color:  #07111a;
-    display: flex;
-}
-.remember label input{
-    /* margin-right: 3px; */
     font-weight: 550;
 }
 .forgot a{
@@ -94,63 +106,94 @@ top: 10px;
 .forgot label a:hover{
     text-decoration: underline;
 }
-.label{
-    text-align: center;
-}
-.label hr{
-    position: absolute;
-    background-color: #07111a;
-    width:140px ;
-    height: 1.5px ;
-    border: 0px;
-}
-.label .leftline{
-    margin: ;
-}
-.label .rightline{}
 button{
-    width: 100%;
+    width: 320px;
     height: 40px;
     background: transparent;
-    border:1.5px solid  #07111a;
+    border:1.5px solid #07111a;
     outline: none;
     border-radius: 40px;
     cursor: pointer;
     font-size: 1em;
-    font-weight: 550;
+    margin-top: 20px; 
+}
+.button{
+    margin-left: 55px;
+}
+.label{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-items: center;
+    margin-top: 15px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.label::before, .label::after{
+    content:"";
+    background-color: #07111a;
+    width:140px ;
+    height: 1.5px ;
+    display: block;
+}
+.google-fb{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-items: center;
+    margin-top: -10px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 .google button{
     width: 150px;
     height: 40px;
 }
+.google button:hover {
+    background-color: #4CAF50; 
+  }
 .google img{
     position:absolute;
-    background-color: aliceblue;
+    background-color: transparent;
     height: 30px;
     width: 30px;
+    margin-top: 25px;
+    margin-left: 20px;
 }
 .google p{
     position:absolute;
+    color: rgba(248, 246, 245, 0.941);
+    margin-top: -38px;
+    margin-left: 60px;
+    font-weight: 400;
 }
 .fb button{
-    /* background-color: rgba(55, 92, 166, 0.961); */
+    background-color: rgb(50, 83, 150);
     width: 150px;
     height: 40px;
 }
+.fb button:hover {
+    background-color: transparent; 
+  }
 .fb img{
     position:absolute;
     height: 30px;
     width: 30px;
-    margin-left: 0px;
+    margin-top: 22px;
+    margin-left: 12px;
 }
 .fb p{
     position:absolute;
+    color: rgba(248, 246, 245, 0.941);
+    margin-top: -37px;
+    margin-left: 50px;
+    font-weight: 400;
 }
 .register{
     font-size: .9em;
     color:  #07111a;
-    /* text-align: center; */
-    /* margin: 25px 0 10px; */
+    text-align: center;
+    margin-top: 12px;
 }
 .register p{
     font-weight: 550;
