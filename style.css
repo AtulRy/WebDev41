@@ -9,7 +9,7 @@
 
 *, html {
 
-    scroll-behavior: smooth ;
+    scroll-behavior: smooth !important ;
 }
 .pre{
     background: #161519 url(images/pre.gif) no-repeat center center;
@@ -63,7 +63,7 @@ right: 10px;
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
-    background-image: url('images/samuel-ferrara-1527pjeb6jg-unsplash\ \(1\).jpg');
+    background-image: url('images/titleMap.jpg');
     background-repeat: no-repeat;
     background-clip: text;
     -webkit-background-clip: text;
