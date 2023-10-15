@@ -116,6 +116,7 @@ button{
     cursor: pointer;
     font-size: 1em;
     margin-top: 20px; 
+    font-weight:600;
 }
 .button{
     margin-left: 55px;
