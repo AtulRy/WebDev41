@@ -4,17 +4,45 @@
     padding: 0;
     font-family: 'Poppins',SANS-SERIF;
 }
-section {
-    height:100vh ;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
+.backbutton button{
+    background:transparent; 
+    height: 30px;
+    width: 90px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border:none;
+    outline: 1.5px solid #07111a;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight:500;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
     align-items: center;
+    justify-items: center;
+}
+.backbutton ion-icon{
+    font-size: 25px;
+}
+body{
+    height:100%;
+    width: 100%;
     background: url('pinkbg.jpeg') no-repeat;
     background-size: cover;
     background-position: center;
 }
+section {
+    /* height:100vh ;
+    width: 100vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: url('pinkbg.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
 .login-box{
+    top: 110px;
     position: relative;
     width: 420px;
     height: 400px;
@@ -76,7 +104,7 @@ input:valid~label
 {
 top: -15px;
 }
-button{
+.continue{
     margin: 45px 90px;
     width: 60%;
     height: 40px;
@@ -87,10 +115,4 @@ button{
     cursor: pointer;
     font-size: 1em;
     font-weight: 600;
-}
-.home{
-    border:none ;
-}
-.backbutton{
-    text-align: left;
 }
