@@ -4,8 +4,14 @@
     padding: 0;
     font-family: 'Poppins',SANS-SERIF;
 }
+
+/* @keyframes atul{
+    0%{}
+    100%{background-color: red;}
+} */
+
 .backbutton button{
-    background:transparent; 
+    background: transparent;
     height: 30px;
     width: 90px;
     margin-top: 15px;
@@ -20,6 +26,11 @@
     grid-template-columns: 1fr 5fr;
     align-items: center;
     justify-items: center;
+    transition: 1s;
+}
+.backbutton button:hover{
+    background-color: #09224B;
+    color: #F6887B;
 }
 .backbutton ion-icon{
     font-size: 25px;
