@@ -1,38 +1,52 @@
 <!DOCTYPE html>
+
 <html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title></title>
+        <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/DEV.D1/carousol.css">
     </head>
     <body>
-        <div class="img-slider">
-        <div class="slides">
-            <input type="radio" name="radio-btn" id="radio1">
-            <input type="radio" name="radio-btn" id="radio2">
-            <input type="radio" name="radio-btn" id="radio3">
+        <div class="slider">
+            <div class="slides">
+               <input type="radio" name="radio-btn" id="radio1">
+               <input type="radio" name="radio-btn" id="radio2">
+               <input type="radio" name="radio-btn" id="radio3">
+               <!-- add here the same as top with different number -->
+               <div class="slide first">
+                <img src="/images/trial.carousol/mountain-landscape-2031539_1920.jpg" alt="">
+               </div>
+               <div class="slide">
+                <img src="/images/trial.carousol/mountains-190055_1920.jpg" alt="">
+               </div>
+               <div class="slide">
+                <img src="/images/trial.carousol/nature-3082832_1920.jpg" alt="">
+               </div>
 
-            <div class="slide first">
-                <img src="/images/trial.carousol/mountain-landscape-2031539_1920.jpg"> 
+               <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+               </div> 
             </div>
-            <div class="slide">
-                <img src="/images/trial.carousol/mountains-190055_1920.jpg"> 
+            <div class="navigation-manual">
+              <label for="radio1" class="manual-bt"></label>
+              <label for="radio2" class="manual-bt"></label>
+              <label for="radio3" class="manual-bt"></label>
             </div>
-            <div class="slide">
-                <img src="/images/trial.carousol/nature-3082832_1920.jpg"> 
-            </div>
-            <div class="nav-auto">
-                <div class="auto-bt1"></div>
-                <div class="auto-bt2"></div>
-                <div class="auto-bt3"></div>
-            </div>
-            <div class="nav-manuel">
-                <label for="radio1" class="manuel-bt"></label>
-                <label for="radio2" class="manuel-bt"></label>
-                <label for="radio3" class="manuel-bt"></label>
-            </div>
-         </div>
+        </div>
+        <script type="text/javascript">
+            var counter = 1;
+            setInterval(function(){
+              document.getElementById('radio'+ counter).checked = true;
+               counter++; //if condition add the total number of slides//
+                if(counter>3){
+                counter=1;
+              }  
+            },5000);
+        </script>
     </body>
 </html>
