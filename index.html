@@ -10,6 +10,15 @@
     <link rel="stylesheet" href="DEV.D1/scrollstyle.css">
     <link rel="icon" type="image/x-icon" href="./images/R.png">
     <link rel="stylesheet" href="snow.css">
+    <link rel="stylesheet" href="footer.css">
+
+    <!-- footer links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+<!-- footer links -->
 </head>
 <body>
   <!-- <div class="pre">  
@@ -277,43 +286,82 @@
         <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/>
       </svg></div>
 
-    <script>
-
-      var loader=document.getElementsByClassName("pre");
-        
-        window.addEventListener('load', function(){
-          loader.style.display="none";
-        });
-
-        var menu = document.getElementById("menu") 
+    
   
-        function closemenu(){
-          menu.style.top= "-100vh";
-          setTimeout(() => {
-            document.body.classList.toggle('overflow-class')
-          }, 500);
-          
-        }
-        function openmenu(){
-          menu.style.top= "0";
-          document.body.classList.toggle('overflow-class')
-        }
 
-        function scrollToTop(){
-          window.scrollTo({top:0,behaviour:"smooth"});
-          
 
-        }
-        window.addEventListener('scroll', e => {
-         
-          document.querySelector(".view").style.display = window.scrollY > 100 ? 'display' : 'flex';
-          
-          document.querySelector(".view").style.display = window.scrollY > 0 ? 'display' : 'none';
-        });
 
-        
-        
-     </script>
+
+<!-- footer -->
+
+<footer>
+  <div class="footer">
+  <div class="row">
+  <a href="https://youtu.be/dQw4w9WgXcQ?feature=shared"><i class="fa fa-facebook"></i></a>
+  <a href="https://youtu.be/dQw4w9WgXcQ?feature=shared"><i class="fa fa-instagram"></i></a>
+  <a href="https://youtu.be/dQw4w9WgXcQ?feature=shared"><i class="fa fa-youtube"></i></a>
+  <a href="https://youtu.be/dQw4w9WgXcQ?feature=shared"><i class="fa fa-twitter"></i></a>
+  </div>
   
+  <div class="row">
+  <ul>
+  <li><a href="https://youtu.be/dQw4w9WgXcQ?feature=shared">Contact us</a></li>
+  <li><a href="https://youtu.be/dQw4w9WgXcQ?feature=shared">Our Services</a></li>
+  <li><a href="https://youtu.be/dQw4w9WgXcQ?feature=shared">Privacy Policy</a></li>
+  <li><a href="https://youtu.be/dQw4w9WgXcQ?feature=shared">Terms & Conditions</a></li>
+  <li><a href="https://youtu.be/dQw4w9WgXcQ?feature=shared">Sauce Codes</a></li>
+  </ul>
+  </div>
+  
+  <div class="row">
+  ALPINE PEAKS Copyright © 2023 Alpine Peaks - All rights reserved || Made with &lt3
+  </div>
+  </div>
+  </footer>
+
+
+
+
+<!-- scripts -->
+
+<script>
+
+  var loader=document.getElementsByClassName("pre");
+    
+    window.addEventListener('load', function(){
+      loader.style.display="none";
+    });
+
+    var menu = document.getElementById("menu") 
+
+    function closemenu(){
+      menu.style.top= "-100vh";
+      setTimeout(() => {
+        document.body.classList.toggle('overflow-class')
+      }, 500);
+      
+    }
+    function openmenu(){
+      menu.style.top= "0";
+      document.body.classList.toggle('overflow-class')
+    }
+
+    function scrollToTop(){
+      window.scrollTo({top:0,behaviour:"smooth"});
+      
+
+    }
+    window.addEventListener('scroll', e => {
+     
+      document.querySelector(".view").style.display = window.scrollY > 100 ? 'display' : 'flex';
+      
+      document.querySelector(".view").style.display = window.scrollY > 0 ? 'display' : 'none';
+    });
+
+    
+    
+ </script>
+
+
 </body>
 </html>
