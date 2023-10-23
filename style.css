@@ -46,13 +46,14 @@ right: 10px;
     height: 100vh;
     width: 100%;
     background-color: #040D12;
- 
+    
 }
 .wrapper{
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0;
+    height: 100%;
     /* background-color: red; */
     
 }
@@ -82,12 +83,14 @@ right: 10px;
 
 .title{
     /* background-color: red; */
-    width: 80%;
+    /* width: 80%; */
     background-image: url("images/R.png");
     background-repeat: no-repeat;
     /* background-color: red; */
     background-position: center;
     background-size: contain;
+    
+ 
     animation: bg 2s; 
 }
  .aboutUs{
