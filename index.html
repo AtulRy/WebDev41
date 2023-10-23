@@ -251,7 +251,34 @@
         <div class="title"><h1>Alpine<br>Peaks</h1></div></div>
     </div>
   </div> 
+  <div class="slider">
+    <div class="slides">
+       <input type="radio" name="radio-btn" id="radio1">
+       <input type="radio" name="radio-btn" id="radio2">
+       <input type="radio" name="radio-btn" id="radio3">
+       <!-- add here the same as top with different number -->
+       <div class="slide first">
+        <img src="/images/trial.carousol/mountain-landscape-2031539_1920.jpg" alt="">
+       </div>
+       <div class="slide">
+        <img src="/images/trial.carousol/mountains-190055_1920.jpg" alt="">
+       </div>
+       <div class="slide">
+        <img src="/images/trial.carousol/nature-3082832_1920.jpg" alt="">
+       </div>
 
+       <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+       </div> 
+    </div>
+    <div class="navigation-manual">
+      <label for="radio1" class="manual-bt"></label>
+      <label for="radio2" class="manual-bt"></label>
+      <label for="radio3" class="manual-bt"></label>
+    </div>
+</div>
     <div class="aboutUs" id="aboutUs">
         <div class="smalrect">
           <div class="about-container">
@@ -311,7 +338,14 @@
           
           document.querySelector(".view").style.display = window.scrollY > 0 ? 'display' : 'none';
         });
-
+        var counter = 1;
+            setInterval(function(){
+              document.getElementById('radio'+ counter).checked = true;
+               counter++; //if condition add the total number of slides//
+                if(counter>3){
+                counter=1;
+              }  
+            },5000);
         
         
      </script>
