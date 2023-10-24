@@ -160,6 +160,7 @@ right: 10px;
     border-radius: 50px;
     cursor: pointer;
     animation: fadeIn 0.5s;
+    z-index: 1000000;
     
 }
 @keyframes fadeIn {

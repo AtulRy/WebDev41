@@ -11,6 +11,7 @@
     <link rel="icon" type="image/x-icon" href="./images/R.png">
     <link rel="stylesheet" href="snow.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="contactus.css">
 
     <!-- footer links -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -21,9 +22,10 @@
 <!-- footer links -->
 </head>
 <body>
-  <!-- <div class="pre">  
+  <div class="pre">  
 
-  </div> -->
+  </div>
+  <div class="body">
    <!-- <div class="snow-wrap"> 
   <div class="snow"></div>
 <div class="snow"></div>
@@ -290,7 +292,63 @@
   
 
 
+<!-- contact Us -->
+<section class="contact">
+  <div class="content">
+      <h2>Contact Us</h2>
+      <p>It is through the valuable information provided to us by our clients that we continue to grow and improve. Alpine peaks welcomes your feedback and will answer questions you might have. To help us respond to your Enquiry, please fill out the form below. Response times to e-mail requests vary, but we usually respond within 48 hrs.</p>
+  </div>
+  <div class="container">
+      <div class="contactInfo">
+          <div class="box">
+             <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div> 
+            
+              <div class="text">
+                  <h3>Address</h3>
+                  <p>abcde</p>
+              </div>
+          </div>
+          <div class="box">
+              
+             <div class="icon"><i class="fa fa-phone-square" aria-hidden="true"></i></div>
+              <div class="text">
+                  <h3>Phone</h3>
+                  <p>000-111-222</p>
+              </div>
+          </div>
+          <div class="box">
+              
+             <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+              <div class="text">
+                  <h3>Email</h3>
+                  <p>abcde123@gmail.com</p>
+              </div>
+          </div>
+      </div>
+      <div class="contactForm">
+          <form>
+              <h2>Send Message</h2>
+              <div class="inputBox">
+                  <input type="text" name="" required="required">
+                  <span>Full Name</span>
+              </div>
+              <div class="inputBox">
+                  <input type="text" name="" required="required">
+                  <span>Email</span>
+              </div> 
+              <div class="inputBox">
+                  <textarea required="required"></textarea>
+                  <span>Type Your Message....</span>
+              </div> 
+              <div class="inputBox">
+                  <input type="submit" name="" value="Send">
+              </div>              
+          </form>
+      </div>
+  </div>
 
+</section>
+<!-- contact Us -->
 
 <!-- footer -->
 
@@ -320,17 +378,17 @@
   </footer>
 
 
-
+</div>
 
 <!-- scripts -->
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
 
-  var loader=document.getElementsByClassName("pre");
+  var loader=document.querySelector("loader");
     
-    window.addEventListener('load', function(){
-      loader.style.display="none";
-    });
+    // window.addEventListener('load', function(){
+    //   loader.style.display="none";
+    // });
 
     var menu = document.getElementById("menu") 
 
@@ -359,7 +417,14 @@
     });
 
     
-    
+    $('.body').hide();
+        $(window).on({
+            load: function () {
+                $('.pre').hide();
+                $('.body').show();
+
+            }
+        })
  </script>
 
 
