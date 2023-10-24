@@ -60,6 +60,19 @@
         <script>
             var tbtn = document.getElementsByClassName("tbtn");
             var slide = document.getElementById("slide");
+            var 
+            for(i=0;i<4;i++)
+            {   
+                setInterval(() => {
+                    slide.style.transform = "translateX(0px)";
+                    for(j=0;j<4;j++){
+                    tbtn[j].classList.remove("active");  
+                    }
+                    tbtn[i+1].classList.add("active"); 
+                }, 3000);
+            }
+        
+
 
             tbtn[0].onclick=function(){
                 slide.style.transform = "translateX(0px)";
