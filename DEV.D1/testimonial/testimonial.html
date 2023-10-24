@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/DEV.D1/testimonial/testimonial.css">
+    </head>
+    <body>
+<div class="container">
+    <div class="indicator">
+        <span class="tbtn active"></span>
+        <span class="tbtn"></span>
+        <span class="tbtn"></span>
+        <span class="tbtn"></span>
+    </div>
+    <div class="testimonial">
+        <div class="slide-row" id="slide">
+            <div class="slide-col">
+                <div class="user-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <h3>Atul Reny</h3>
+                </div>
+                <div class="user-img">
+                    <img src="/DEV.D1/testimonial/2082b0068ffdbdbfe170e332e09c3542.jpg">
+                </div>
+            </div>
+            <div class="slide-col">
+                <div class="user-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <h3>Ghamani</h3>
+                </div>
+                <div class="user-img">
+                    <img src="/DEV.D1/testimonial/2082b0068ffdbdbfe170e332e09c3542.jpg">
+                </div>
+            </div>
+            <div class="slide-col">
+                <div class="user-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <h3>Archana</h3>
+                </div>
+                <div class="user-img">
+                    <img src="/DEV.D1/testimonial/2082b0068ffdbdbfe170e332e09c3542.jpg">
+                </div>
+            </div>
+            <div class="slide-col">
+                <div class="user-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <h3>Darshan</h3>
+                </div>
+                <div class="user-img">
+                    <img src="/DEV.D1/testimonial/2082b0068ffdbdbfe170e332e09c3542.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>    
+        <script>
+            var tbtn = document.getElementsByClassName("tbtn");
+            var slide = document.getElementById("slide");
+
+            tbtn[0].onclick=function(){
+                slide.style.transform = "translateX(0px)";
+                for(i=0;i<4;i++){
+                    tbtn[i].classList.remove("active");  
+                }
+                this.classList.add("active");
+            }
+            tbtn[1].onclick=function(){
+                slide.style.transform = "translateX(-800px)";
+                for(i=0;i<4;i++){
+                    tbtn[i].classList.remove("active");  
+                }
+                this.classList.add("active");
+            }
+            tbtn[2].onclick=function(){
+                slide.style.transform = "translateX(-1600px)";
+                for(i=0;i<4;i++){
+                    tbtn[i].classList.remove("active");  
+                }
+                this.classList.add("active");
+            }
+            tbtn[3].onclick=function(){
+                slide.style.transform = "translateX(-2400px)";
+                for(i=0;i<4;i++){
+                    tbtn[i].classList.remove("active");  
+                }
+                this.classList.add("active");
+            }
+        </script>
+    </body>
+</html>
