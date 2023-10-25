@@ -6,9 +6,10 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/DEV.D1/testimonial/testimonial.css">
+        <link rel="stylesheet" href="testimonial.css">
     </head>
     <body>
+<div class="full-size">
 <div class="container">
     <div class="indicator">
         <span class="tbtn active"></span>
@@ -20,20 +21,20 @@
         <div class="slide-row" id="slide">
             <div class="slide-col">
                 <div class="user-text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <h3>Atul Reny</h3>
+                    <p>Pathetic resort! Too much grass on the lawns(i play League). Too many members of the female species. 0/10 rating</p>
+                    <h3>Rayan Sheikh (professional foot critique)</h3>
                 </div>
                 <div class="user-img">
-                    <img src="/DEV.D1/testimonial/2082b0068ffdbdbfe170e332e09c3542.jpg">
+                    <img src="images/ryanide.webp">
                 </div>
             </div>
             <div class="slide-col">
                 <div class="user-text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <h3>Ghamani</h3>
+                    <p>10/10 resort. Got to spend a lot of quality time with my soulmate (rayan daddi). </p>
+                    <h3>Amogh</h3>
                 </div>
                 <div class="user-img">
-                    <img src="/DEV.D1/testimonial/2082b0068ffdbdbfe170e332e09c3542.jpg">
+                    <img src="images/amog.jpeg">
                 </div>
             </div>
             <div class="slide-col">
@@ -57,20 +58,21 @@
         </div>
     </div>
 </div>    
+</div>
         <script>
             var tbtn = document.getElementsByClassName("tbtn");
             var slide = document.getElementById("slide");
-            var 
-            for(i=0;i<4;i++)
-            {   
-                setInterval(() => {
-                    slide.style.transform = "translateX(0px)";
-                    for(j=0;j<4;j++){
-                    tbtn[j].classList.remove("active");  
-                    }
-                    tbtn[i+1].classList.add("active"); 
-                }, 3000);
-            }
+            // var arr=[0,-800,-1600,-2400]
+            // for(i=0;i<4;i++)
+            // {   
+            //     setInterval(() => {
+            //         slide.style.transform = "translateX("+arr[i]+"px)";
+            //         for(j=0;j<4;j++){
+            //         tbtn[j].classList.remove("active");  
+            //         }
+            //         tbtn[i+1].classList.add("active"); 
+            //     }, 3000);
+            // }
         
 
 
