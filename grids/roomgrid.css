@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;1,6..96,500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bodoni Moda', serif;
+}
+body{
+    font-size: 1.2rem;
+    margin: 20px 20px 20px 20px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(246, 246, 246, 0.84);
+}
+.gallery{
+    flex-basis: 100%;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 200px;
+}
+.box{
+    background-size: cover;
+    /* background-position: top; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+.box:hover{
+    background-color: rgba(243, 247, 250, 0);
+    background-position: bottom;
+
+}
+.overlay{
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.634);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 10px; */
+    opacity:0;
+    transition:1s ease-in-out;
+}
+.imgtext{
+    color: white;
+    /* font-size:40px ; */
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box1:hover .overlay{
+    opacity: 1;
+}
+#box2:hover .overlay{
+    opacity: 1;
+}
+#box3:hover .overlay{
+    opacity: 1;
+}
+#box4:hover .overlay{
+    opacity: 1;
+}
+#box5:hover .overlay{
+    opacity: 1;
+}
+#box6:hover .overlay{
+    opacity: 1;
+}
+#box7:hover .overlay{
+    opacity: 1;
+}
+.text{
+    font-size: 100px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box1:hover .text{
+    opacity: 0;
+}
+.row2{
+    grid-row: span 2;
+}
+.col2{
+    grid-column: span 2;
+}
