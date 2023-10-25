@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="snow.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="contactus.css">
-
+    <link rel="stylesheet" href="testimonial.css">
     <!-- footer links -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -291,6 +291,59 @@
     
   
 
+<!-- Testimonials -->
+<div class="full-size">
+  <div class="container">
+      <div class="indicator">
+          <span class="tbtn active"></span>
+          <span class="tbtn"></span>
+          <span class="tbtn"></span>
+          <span class="tbtn"></span>
+      </div>
+      <div class="testimonial">
+          <div class="slide-row" id="slide">
+              <div class="slide-col">
+                  <div class="user-text">
+                      <p>Pathetic resort! Too much grass on the lawns(i play League). Too many members of the female species. 0/10 rating</p>
+                      <h3>Rayan Sheikh (professional foot critique)</h3>
+                  </div>
+                  <div class="user-img">
+                      <img src="images/ryanide.webp">
+                  </div>
+              </div>
+              <div class="slide-col">
+                  <div class="user-text">
+                      <p>10/10 resort. Got to spend a lot of quality time with my soulmate (rayan daddi). V ambient and private #whatAreWomen </p>
+                      <h3>Amogh Padukone</h3>
+                  </div>
+                  <div class="user-img">
+                      <img src="images/amog.jpg">
+                  </div>
+              </div>
+              <div class="slide-col">
+                  <div class="user-text">
+                      <p>Couldn't care less. Dead from within. Been doing Python+psql all my life.</p>
+                      <h3>Viraj "backend" Sazzala</h3>
+                  </div>
+                  <div class="user-img">
+                      <img src="images/sazz.jpg">
+                  </div>
+              </div>
+              <div class="slide-col">
+                  <div class="user-text">
+                      <p>Ya'll need to take better care of your social medias</p>
+                      <h3>WebDev41🫶</h3>
+                  </div>
+                  <div class="user-img">
+                      <img src="images/cap.jpg">
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>    
+  </div>
+<!-- Testimonials -->
+
 
 <!-- contact Us -->
 <section class="contact">
@@ -425,6 +478,54 @@
 
             }
         })
+
+
+        // testimonial page
+        var tbtn = document.getElementsByClassName("tbtn");
+            var slide = document.getElementById("slide");
+            // var arr=[0,-800,-1600,-2400]
+            // for(i=0;i<4;i++)
+            // {   
+            //     setInterval(() => {
+            //         slide.style.transform = "translateX("+arr[i]+"px)";
+            //         for(j=0;j<4;j++){
+            //         tbtn[j].classList.remove("active");  
+            //         }
+            //         tbtn[i+1].classList.add("active"); 
+            //     }, 3000);
+            // }
+        
+
+
+            tbtn[0].onclick=function(){
+                slide.style.transform = "translateX(0px)";
+                for(i=0;i<4;i++){
+                    tbtn[i].classList.remove("active");  
+                }
+                this.classList.add("active");
+            }
+            tbtn[1].onclick=function(){
+                slide.style.transform = "translateX(-800px)";
+                for(i=0;i<4;i++){
+                    tbtn[i].classList.remove("active");  
+                }
+                this.classList.add("active");
+            }
+            tbtn[2].onclick=function(){
+                slide.style.transform = "translateX(-1600px)";
+                for(i=0;i<4;i++){
+                    tbtn[i].classList.remove("active");  
+                }
+                this.classList.add("active");
+            }
+            tbtn[3].onclick=function(){
+                slide.style.transform = "translateX(-2400px)";
+                for(i=0;i<4;i++){
+                    tbtn[i].classList.remove("active");  
+                }
+                this.classList.add("active");
+            }
+        // testimonial page
  </script>
 
 
