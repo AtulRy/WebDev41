@@ -183,3 +183,13 @@ hr{
     width: 100%;
     margin: auto 0px;
 }
+.bonk{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: none;
+}
+.bonk img{
+    width: 100%;
+    height: 100%;
+}

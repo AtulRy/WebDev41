@@ -23,10 +23,14 @@
 <!-- footer links -->
 </head>
 <body>
+    <div class="bonk">
+        <img src="images/bonk.jpeg" alt="">
+    </div>
   <div class="pre">  
 
   </div>
   <div class="body">
+    
    <!-- <div class="snow-wrap"> 
   <div class="snow"></div>
 <div class="snow"></div>
@@ -427,7 +431,7 @@
   <li><a href="https://youtu.be/dQw4w9WgXcQ?feature=shared">Our Services</a></li>
   <li><a href="https://youtu.be/dQw4w9WgXcQ?feature=shared">Privacy Policy</a></li>
   <li><a href="https://youtu.be/dQw4w9WgXcQ?feature=shared">Terms & Conditions</a></li>
-  <li><a href="https://youtu.be/dQw4w9WgXcQ?feature=shared">Sauce Codes</a></li>
+  <li><a href="#"  onclick="bonk()">Sauce Codes</a></li>
   </ul>
   </div>
   
@@ -444,7 +448,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="pre.js"></script>
 <script>
-
+function bonk(){
+    document.querySelector(".bonk").style.display="block"
+    document.querySelector(".body").style.display="none"
+}
   var loader=document.querySelector("loader");
     
     // window.addEventListener('load', function(){
