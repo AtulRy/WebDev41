@@ -7,15 +7,17 @@
 }
 body{
     font-size: 1.2rem;
-    margin: 20px 20px 20px 20px;
+    margin: 0px 8px 0px 8px;
 }
 .heading{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1.5em;
+    color:rgb(27,20,14);
 }
 .container{
-    margin-top: 20px;
+    margin-top: 2px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +28,7 @@ body{
     display: grid;
     gap: 8px;
     grid-template-columns: repeat(3,1fr);
-    grid-auto-rows: 200px;
+    grid-auto-rows: 210px;
 }
 .box{
     background-size: cover;
@@ -41,60 +43,50 @@ body{
 .box:hover{
     background-color: rgba(243, 247, 250, 0);
     background-position: bottom;
-
 }
 .overlay{
-    /* position: absolute;
-    top: 0;
-    left: 0; */
     width: 100%;
     height: 100%;
-    background-color:rgba(0, 0, 0, 0.634);
+    background-color:rgba(0, 0, 0, 0.558);
+    /* backdrop-filter: blur(.8px); */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border-radius: 10px; */
-    opacity:0;
-    transition:1s ease-in-out;
+    display: none;
+    /* transition: 5s ease; */
+    transition:10s ease-in-out;
+}
+.overlaycontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .imgtext{
     color: white;
-    /* font-size:40px ; */
-    font-weight: bold;
-    display: flex;
+    font-size:25px ;
+    font-weight: 550;
+    /* display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center; */
 }
-#box1:hover .overlay{
-    opacity: 1;
-}
-#box2:hover .overlay{
-    opacity: 1;
-}
-#box3:hover .overlay{
-    opacity: 1;
-}
-#box4:hover .overlay{
-    opacity: 1;
-}
-#box5:hover .overlay{
-    opacity: 1;
-}
-#box6:hover .overlay{
-    opacity: 1;
-}
-#box7:hover .overlay{
-    opacity: 1;
+.bookbutton{
+  font-size: 30px;
+  background-color: #10120c00;
+  outline: none;
+  position: absolute;
+  color: white;
+  border-radius: none;
+  margin-top: 200px;
 }
 .text{
+    /* position: relative; */
     font-size: 100px;
     font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-#box1:hover .text{
-    opacity: 0;
 }
 .row2{
     grid-row: span 2;
@@ -102,3 +94,62 @@ body{
 .col2{
     grid-column: span 2;
 }
+#box1:hover .text{
+    display: none;
+}
+#box2:hover .text{
+    display: none;
+}
+#box3:hover .text{
+    display: none;
+}
+#box4:hover .text{
+    display: none;
+}
+#box5:hover .text{
+    display: none;
+}
+#box6:hover .text{
+    display: none;
+}
+#box7:hover .text{
+    display: none;
+}
+#box1:hover .overlay{
+    display: flex;
+
+}
+#box2:hover .overlay{
+    display: flex;
+}
+#box3:hover .overlay{
+    display: flex;
+}
+#box4:hover .overlay{
+    display: flex;
+}
+#box5:hover .overlay{
+    display: flex;
+}
+#box6:hover .overlay{
+    display: flex;
+}
+#box7:hover .overlay{
+    display: flex;
+}
+#text1{
+    font-size: 90px;
+}
+#text2{
+    font-size: 80px;
+}
+#text3{
+    font-size: 75px;
+}
+#text4{
+    font-size: 70px;
+}
+#text5{
+    font-size: 80px;
+}
+
