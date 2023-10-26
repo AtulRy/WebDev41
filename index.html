@@ -234,7 +234,7 @@
 <div class="snow"></div> -->
 
  
-  <div class="scrollbar"> 
+  
     <div class="coverPage">
         <DIV class="full-menu">
             <nav id="menu">
@@ -265,7 +265,7 @@
             
             <div class="title"><h1>Alpine<br>Peaks</h1></div></div>
     </div>
-  </div> 
+  
 
     <div class="aboutUs" id="aboutUs">
         <div class="smalrect">
@@ -282,9 +282,9 @@
        </div>
     </div>
 </div>
-  </div>
+  
 
-    </div>
+    
 
   
 
@@ -369,7 +369,7 @@
             
               <div class="text">
                   <h3>Address</h3>
-                  <p>Indiranagar, Bangalore</p>
+                  <p>KR Puram, Bangalore</p>
               </div>
           </div>
           <div class="box">
@@ -442,11 +442,19 @@
   </footer>
 
 
-</div>
 
+</div>
 <!-- scripts -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="pre.js"></script>
+<script>
+$('.body').hide();
+    $(window).on({
+        load: function () {
+            $('.pre').hide();
+            $('.body').show();
+    
+        }
+    })</script>
 <script>
 function bonk(){
     document.querySelector(".bonk").style.display="block"

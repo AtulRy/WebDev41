@@ -131,7 +131,7 @@ top:20px;
 .remember-forgot label a:hover{
     text-decoration: underline;
 }
-button{
+.registerbox button{
     width: 320px;
     height: 40px;
     background: transparent;
