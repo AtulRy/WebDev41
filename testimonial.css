@@ -1,11 +1,40 @@
 
+.titlecon{
+    background: linear-gradient(-45deg, rgb(125, 56, 56),#053B50, #12a7b2);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    padding: 50px;
+    padding-bottom: 100px;
+}
+.titlecon h2{
+    font-size: 100px;
+    text-align: center;
+    /* display: inline-block; */
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: #D6D5C5;
+
+}
 .full-size{
-    background-color: #526D82;
+    
     width: 100%;
-    height: 80vh;
+    /* height: 80vh; */
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 .slide-row{
     display: flex;
@@ -47,8 +76,9 @@
 }
 .user-text h3{
     margin: 35px 0 5px;
+    /* font-size: larger; */
 }
-.container{
+.container-t{
    width: 800px;
    height: 400px;
    /* position:absolute;

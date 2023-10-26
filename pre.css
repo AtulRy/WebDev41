@@ -1,0 +1,12 @@
+.pre{
+    background: #161519 url(images/pre.gif) no-repeat center center;
+    /* background-repeat: none;
+    background-position: center;*/
+    background-size: 30%; 
+    /* height: 100vh;
+    width: 100%; */
+    position: fixed;
+    /* overflow: hidden; */
+    z-index: 10000;
+    
+}
