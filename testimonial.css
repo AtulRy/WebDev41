@@ -1,6 +1,6 @@
 
 .titlecon{
-    background: linear-gradient(-45deg, rgb(125, 56, 56),#053B50, #12a7b2);
+    background: linear-gradient(-45deg,#053B50, rgb(125, 56, 56),#2599a1);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
     padding: 50px;
@@ -99,7 +99,7 @@
    width: 15px;
    margin: 5px;
    border-radius: 15px;
-   background: #040D12; 
+   background: #fff; 
    cursor: pointer;
    transition: 0.3s;
 }
