@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="contactus.css">
     <link rel="stylesheet" href="testimonial.css">
     <link rel="stylesheet" href="pre.css">
+    <link rel="stylesheet" href="slider.css">
     <!-- footer links -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -21,6 +22,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
 <!-- footer links -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="bonk">
@@ -239,11 +242,11 @@
         <DIV class="full-menu">
             <nav id="menu">
               <ul>
+                <li><a href="#gallery"class="items"onclick="closemenu()">Gallery</a></li>
                 <li><a href="#aboutUs"class="items"onclick="closemenu()">About Us</a></li>
-               <li><a href="#"class="items"onclick="closemenu()">SECOND</a></li>
                <li><a href="#"class="items"onclick="closemenu()">THIRD</a></li>
-               <li><a href="#"class="items"onclick="closemenu()">FOURTH</a></li>
-               <li><a href="#"class="items"onclick="closemenu()">FIFTH</a></li>
+               <li><a href="#testimonial"class="items"onclick="closemenu()">Testimonials</a></li>
+               <li><a href="#contact"class="items"onclick="closemenu()">Contact Us</a></li>
                <li class="login-button"><a href="DEV.D1/login.html" class="login-link" >LOGIN</a></li>
               </ul>
               <p class="menu1">Menu</p>
@@ -265,8 +268,24 @@
             
             <div class="title"><h1>Alpine<br>Peaks</h1></div></div>
     </div>
-  
+  <!-- carousal -->
+  <div class="carousal" id="gallery">
+    <h2>Gallery</h2>
+  <div class="slider-container">
+    
+  <div class="slider">
+    <img src="https://cdn.pixabay.com/photo/2019/12/06/05/46/alpine-village-4676673_1280.jpg"/>
+    <img src="https://images.unsplash.com/photo-1616429553002-faf23468952d?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+    <img src="https://images.unsplash.com/photo-1612645213559-6af1d4edeaf8?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+    <img src="https://images.unsplash.com/photo-1641933002658-c7f4d2be614a?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+    <img src="https://cdn.pixabay.com/photo/2016/11/18/14/05/brick-wall-1834784_1280.jpg" />
+<img src="https://images.unsplash.com/photo-1516706443377-10e1c05a3346?auto=format&fit=crop&q=80&w=2068&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+<img src="https://images.unsplash.com/photo-1583417267826-aebc4d1542e1?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+<img src="https://cdn.pixabay.com/photo/2023/04/11/16/04/solar-wind-7917659_1280.jpg" />
+</div>
+</div></div>
 
+<!-- carousal -->
     <div class="aboutUs" id="aboutUs">
         <div class="smalrect">
           <div class="about-container">
@@ -297,7 +316,7 @@
   
 
 <!-- Testimonials -->
-<div class="titlecon">
+<div class="titlecon" id="testimonial">
     <h2>Testimonials</h2>
 <div class="full-size">
     <!-- <h2>Testimonials</h2> -->
@@ -357,7 +376,7 @@
 
 
 <!-- contact Us -->
-<section class="contact">
+<section class="contact" id="contact">
   <div class="content">
       <h2>Contact Us</h2>
       <p>We're here to assist you. Please feel free to get in touch with us through the options below!</p>
@@ -445,7 +464,10 @@
 
 </div>
 <!-- scripts -->
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="test-files/slick-slider-example/dist/script.js"></script>
 <script>
 $('.body').hide();
     $(window).on({
