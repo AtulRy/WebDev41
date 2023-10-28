@@ -27,7 +27,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     font-size: 40px;
-    color: #D6D5C5;
+    color: #C5D2D8;
     padding:10px ;
     letter-spacing: 5px;
     position: relative;
@@ -72,7 +72,7 @@ nav ul li a:hover:after{
     transition: width 0.5s;
 }
 .menu1{
-    color: aliceblue;
+    color: #C5D2D8;
     font-size: 300px;
     letter-spacing: 100ox;
     opacity: 0.2;
@@ -104,5 +104,5 @@ nav ul li a:hover:after{
    right: 80px;
    top: 50px;
    cursor: pointer; 
-   fill: #D6D5C5;
+   fill: #C5D2D8;
 }
