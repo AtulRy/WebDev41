@@ -29,13 +29,13 @@
     left: 80px;
     font-size: 50px;
     font-weight:500;
-    color: #fff;
+    color: #C5D2D8;
 }
 .contact .content p{
     position: relative;
     left: 80px;
  font-weight: 300;
- color: #fff;
+ color: #C5D2D8;
  padding: 10px;
  font-size: 20px;
 }
@@ -62,7 +62,7 @@
 .container .contactInfo .box .icon{
     min-width: 60px;
     height: 60px;
-    background:#fff ;
+    background-color: #C5D2D8;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,7 +73,7 @@
     display: flex;
     margin-left: 20px;
     font-size: 16px;
-    color: #fff;
+    color: #C5D2D8;
     flex-direction: column;
     font-weight: 300;
 
@@ -86,7 +86,7 @@
 .contactForm{
     width: 40%;
     padding: 40px;
-    background: #fff;
+    background-color: #C5D2D8;
 }
 .contactForm h2{
     font-size: 30px;
@@ -109,6 +109,7 @@
   border-bottom:2px solid #333 ;
   outline: none;
   resize: none  ;
+  background-color: #C5D2D8;
 
 }
 .contactForm .inputBox span{
