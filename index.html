@@ -72,7 +72,7 @@
 
    
   <!-- carousal -->
-  <div class="carousal-container">
+  <div class="carousal-container" id="gallery">
     <div class="carousal-title"><h2>Gallery</h2></div>
     <div class="carousal-subcontainer">
   <div id="splide" class="splide">
@@ -357,18 +357,18 @@ function bonk(){
     function closemenu(){
       menu.style.top= "-100vh";
       setTimeout(() => {
-        document.body.classList.toggle('overflow-class')
+        document.body.classList.remove('overflow-class')
       }, 500);
       
     }
     function openmenu(){
       menu.style.top= "0";
-      document.body.classList.toggle('overflow-class')
+      document.body.classList.add('overflow-class')
     }
 
     function scrollToTop(){
       window.scrollTo({top:0,behaviour:"smooth"});
-      
+      closemenu();
 
     }
     window.addEventListener('scroll', e => {
