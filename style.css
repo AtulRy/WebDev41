@@ -97,21 +97,23 @@ right: 10px;
 
 .aboutUs h2{
     font-family: poppins;
-    text-align: center;
+    /* text-align: center; */
     /* position: relative;
     bottom: 2vh; */
     font-size: 8em;
-    font-weight: 600;
-    color: #D6D5C5;
+    font-weight: 500;
+    /* color: #D6D5C5; */
+    color: #C5D2D8;
     /* margin-top: 30px; */
 }
 .aboutUs p{
     font-family: poppins;
-    text-align: center;
-    color: #FFFFFF;
+    /* text-align: center; */
+    /* color: #FFFFFF; */
+    color: #C5D2D8;
 }
 .txt{
-    width: 90%;
+    /* width: 90%; */
     /* background-color: red; */
     padding-bottom: 10px;
 }
@@ -126,28 +128,26 @@ right: 10px;
     /* padding-top: 5vh ; */
     font-size: 30px;
 }
-@media screen and (max-width: 1780px) {
+/* @media screen and (max-width: 1780px) {
     .aboutUs h2 {
       font-size: 5empx;
     }
   }
   
-  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+   If the screen size is 600px wide or less, set the font-size of <div> to 30px 
   @media screen and (max-width: 600px) {
     div.example {
       font-size: 30px;
     }
-  }
+  } */
 .smalrect{
         width: 100%;
-        text-align: justify ;
+        /* text-align: center ; */
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: rgba(4, 13, 18, 0.5);
-        
-        padding: 60px;
-    
+        background-color: rgba(4, 13, 18, 0.9);
+        padding: 50px;
 }
 .about-container{
     /* background-color: red; */

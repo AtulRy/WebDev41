@@ -11,23 +11,29 @@
     padding: 50px 100px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+    
     flex-direction: column;
-    background-color: #040D12;
+    /* background-color: #040D12; */
+    background-color: #192737;
     background-size:cover; 
 
 
 }
 .contact .content{
     max-width: 800px;
-    text-align: center;
+    /* text-align: center; */
 }
 .contact .content h2{
+    position: relative;
+    left: 80px;
     font-size: 50px;
     font-weight:500;
     color: #fff;
 }
 .contact .content p{
+    position: relative;
+    left: 80px;
  font-weight: 300;
  color: #fff;
  padding: 10px;

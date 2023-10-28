@@ -2,16 +2,24 @@
     padding: 20px 0;
    
   }
-  .carousal-container123{
+  .carousal-container{
     /* height: 100vh;
     width: 100%; */
     /* background-color: red; */
    /* display: flex; */
-    
+   padding-top: 30px;
+   padding-bottom: 30px;
+   background-color: #192737;
   }
-  .carousal-subcontainer{
-    background-color: lime;
-    /* float:right; */
+  .carousal-title{
+    width: 80%;
+    margin: 0px auto;
+  }
+  .carousal-container h2{
+    /* color: bisque; */
+    color: #C5D2D8;
+    font-size: 100px;
+    font-weight: 500;
   }
   .splide__slide img {
     display: block;

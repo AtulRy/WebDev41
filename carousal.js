@@ -4,7 +4,7 @@ document.addEventListener( 'DOMContentLoaded', function () {
     perPage: 3,
     focus: 'center',
     autoplay: true,
-    interval: 8000,
+    interval: 4500,
     flickMaxPages: 3,
     updateOnMove: true,
     pagination: false,
