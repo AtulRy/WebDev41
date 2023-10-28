@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;1,6..96,500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap'); */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bodoni Moda', serif;
+    /* font-family: 'Poppins',SANS-SERIF; */
+}
+body{
+    font-size: 1.2rem;
+    margin: 0px 8px 0px 8px;
+}
+.roomheading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color:rgb(27,20,14);
+    /* font-family: 'Poppins',SANS-SERIF; */
+}
+.roomcontainer{
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(246, 246, 246, 0.84);
+}
+.roomgallery{
+    flex-basis: 100%;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 210px;
+}
+.roombox{
+    background-size: cover;
+    /* background-position: top; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+.roombox:hover{
+    background-color: rgba(243, 247, 250, 0);
+    background-position: bottom;
+}
+.roomoverlay{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.558);
+    /* backdrop-filter: blur(.8px); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    /* transition: 5s ease; */
+    transition:10s ease-in-out;
+}
+.roomoverlaycontainer{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.imgroomtext{
+    color: white;
+    font-size:20px ;
+    font-weight: 550;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+    padding: 10px;
+}
+#imgroomtext3{
+    font-size: 18px;
+}
+.roombookbutton{
+  width: 150px;
+  height: 40px; 
+  font-size: 25px; 
+  border:none;
+  background-color: rgb(237, 216, 190);
+  color:rgb(27,20,14);
+  outline: 1.5px solid rgb(27,20,14);
+  border-radius: 20px;
+  font-weight: 600;
+}
+#roombookbutton1{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px; 
+    font-size: 25px;
+}
+#roombookbutton2{
+    margin-top: 15px;
+    width: 130px;
+    height: 35px; 
+    font-size: 23px;
+}
+#roombookbutton3{
+    margin-top: 7px;
+    width: 110px;
+    height: 30px; 
+    font-size: 20px;
+}
+#roombookbutton4{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px; 
+    font-size: 25px;
+}
+#roombookbutton5{
+    margin-top: 15px;
+    width: 130px;
+    height: 35px; 
+    font-size: 23px;
+}
+#roombookbutton6{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px; 
+    font-size: 25px;
+}
+#roombookbutton7{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px; 
+    font-size: 25px;
+}
+.roomtext{
+    /* position: relative; */
+    font-size: 100px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row2{
+    grid-row: span 2;
+}
+.col2{
+    grid-column: span 2;
+}
+#roombox1:hover .roomtext{
+    display: none;
+}
+#roombox2:hover .roomtext{
+    display: none;
+}
+#roombox3:hover .roomtext{
+    display: none;
+}
+#roombox4:hover .roomtext{
+    display: none;
+}
+#roombox5:hover .roomtext{
+    display: none;
+}
+#roombox6:hover .roomtext{
+    display: none;
+}
+#roombox7:hover .roomtext{
+    display: none;
+}
+#roombox1:hover .roomoverlay{
+    display: flex;
+
+}
+#roombox2:hover .roomoverlay{
+    display: flex;
+}
+#roombox3:hover .roomoverlay{
+    display: flex;
+}
+#roombox4:hover .roomoverlay{
+    display: flex;
+}
+#roombox5:hover .roomoverlay{
+    display: flex;
+}
+#roombox6:hover .roomoverlay{
+    display: flex;
+}
+#roombox7:hover .roomoverlay{
+    display: flex;
+}
+#roomtext1{
+    font-size: 90px;
+}
+#roomtext2{
+    font-size: 80px;
+}
+#roomtext3{
+    font-size: 75px;
+}
+#roomtext4{
+    font-size: 70px;
+}
+#roomtext5{
+    font-size: 80px;
+}
+

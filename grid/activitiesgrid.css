@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;1,6..96,500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bodoni Moda', serif;
+}
+body{
+    font-size: 1.2rem;
+    margin: 0px 8px 0px 8px;
+}
+.activitiesheading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color:rgb(27,20,14);
+}
+.activitiescontainer{
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(246, 246, 246, 0.84);
+}
+.activitiesgallery{
+    flex-basis: 100%;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(5,1fr);
+    grid-auto-rows: 150px;
+}
+.activitiesbox{
+    background-size: cover;
+    /* background-position: top; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+.activitiesbox:hover{
+    background-color: rgba(243, 247, 250, 0);
+    background-position: bottom;
+}
+.activitiesoverlay{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.487);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    transition:10s ease-in-out;
+}
+.activitiesoverlaycontainer{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.imgactivitiestext{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    /* padding: 10px; */
+}
+#imgactivitiestext1{
+    font-size: px;
+    padding: 10px;
+}
+#imgactivitiestext2{
+    font-size: px;
+}
+#imgactivitiestext3{
+    font-size: px;
+}
+#imgactivitiestext4{
+    font-size: 48px;
+}
+#imgactivitiestext5{
+    font-size: 80px;
+    padding: px;
+}
+#imgactivitiestext6{
+    font-size: px;
+    padding: 10px;
+}
+#imgactivitiestext7{
+    font-size: 40px;
+    padding: 10px;
+}
+#imgactivitiestext8{
+    font-size: px;
+    padding: 5px;
+}
+#imgactivitiestext9{
+    font-size: 40px;
+}
+.activitiesbookbutton{
+  width: 150px;
+  height: 40px; 
+  font-size: 25px; 
+  border:none;
+  background-color: rgb(237, 216, 190);
+  color:rgb(27,20,14);
+  outline: 1.5px solid rgb(27,20,14);
+  border-radius: 20px;
+  font-weight: 600;
+}
+#activitiesbookbutton1{
+    margin-top:0px;
+    width: 150px;
+    height: 40px; 
+    font-size: 25px;
+}
+#activitiesbookbutton2{
+    margin-top: 0px;
+    width: 130px;
+    height: 35px; 
+    font-size: 23px;
+}
+#activitiesbookbutton3{
+    margin-top: 0px;
+    width: 130px;
+    height: 35px; 
+    font-size: 23px;
+}
+#activitiesbookbutton4{
+    margin-top: 0px;
+    width: 140px;
+    height: 38px; 
+    font-size: 24px;
+}
+#activitiesbookbutton5{
+    margin-top:0px;
+    width: 150px;
+    height: 40px; 
+    font-size: 25px;
+}
+#activitiesbookbutton6{
+    margin-top: 0px;
+    width: 150px;
+    height: 40px; 
+    font-size: 25px;
+}
+#activitiesbookbutton7{
+    margin-top: 0px;
+    width: 140px;
+    height: 38px; 
+    font-size: 24px;
+}
+#activitiesbookbutton8{
+    margin-top: 0px;
+    width: 130px;
+    height: 35px; 
+    font-size: 23px;
+}
+#activitiesbookbutton9{
+    margin-top: 0px;
+    width: 120px;
+    height: 32px; 
+    font-size: 21px;
+}
+.activitiestext{
+    /* position: relative; */
+    font-size: 100px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row2{
+    grid-row: span 2;
+}
+.row3{
+    grid-row: span 3;
+}
+.col2{
+    grid-column: span 2;
+}
+#activitiesbox1:hover .activitiestext{
+    display: none;
+}
+#activitiesbox2:hover .activitiestext{
+    display: none;
+}
+#activitiesbox3:hover .activitiestext{
+    display: none;
+}
+#activitiesbox4:hover .activitiestext{
+    display: none;
+}
+#activitiesbox5:hover .activitiestext{
+    display: none;
+}
+#activitiesbox6:hover .activitiestext{
+    display: none;
+}
+#activitiesbox7:hover .activitiestext{
+    display: none;
+}
+#activitiesbox8:hover .activitiestext{
+    display: none;
+}
+#activitiesbox9:hover .activitiestext{
+    display: none;
+}
+#activitiesbox1:hover .activitiesoverlay{
+    display: flex;
+
+}
+#activitiesbox2:hover .activitiesoverlay{
+    display: flex;
+}
+#activitiesbox3:hover .activitiesoverlay{
+    display: flex;
+}
+#activitiesbox4:hover .activitiesoverlay{
+    display: flex;
+}
+#activitiesbox5:hover .activitiesoverlay{
+    display: flex;
+}
+#activitiesbox6:hover .activitiesoverlay{
+    display: flex;
+}
+#activitiesbox7:hover .activitiesoverlay{
+    display: flex;
+}
+#activitiesbox8:hover .activitiesoverlay{
+    display: flex;
+}
+#activitiesbox9:hover .activitiesoverlay{
+    display: flex;
+}
+
