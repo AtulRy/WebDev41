@@ -1,435 +1,508 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alpine Peaks</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="menuStyle.css">
-    <link rel="stylesheet" href="DEV.D1/scrollstyle.css">
-    <link rel="icon" type="image/x-icon" href="./images/R.png">
-    <link rel="stylesheet" href="snow.css">
-    <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="contactus.css">
-    <link rel="stylesheet" href="testimonial.css">
-    <link rel="stylesheet" href="pre.css">
-    <link rel="stylesheet" href="slider.css">
-    <link rel="stylesheet" href="test-files/grid/roomgrid.css">
-    <!-- footer links -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Alpine Peaks</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="menuStyle.css">
+	<link rel="stylesheet" href="DEV.D1/scrollstyle.css">
+	<link rel="icon" type="image/x-icon" href="./images/R.png">
+	<link rel="stylesheet" href="snow.css">
+	<link rel="stylesheet" href="footer.css">
+	<link rel="stylesheet" href="contactus.css">
+	<link rel="stylesheet" href="testimonial.css">
+	<link rel="stylesheet" href="pre.css">
+	<link rel="stylesheet" href="slider.css">
+	<link rel="stylesheet" href="test-files/grid/roomgrid.css">
+	<!-- footer links -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<!--GOOGLE FONTS-->
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
-<!-- footer links -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css'>
+	<!--GOOGLE FONTS-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+	<!-- footer links -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+		integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+		integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css'>
 </head>
+
 <body>
-    <div class="bonk">
-        <img src="images/bonk.jpeg" alt="">
-    </div>
-  <div class="pre">  
+	<div class="bonk">
+		<img src="images/bonk.jpeg" alt="">
+	</div>
+	<div class="pre">
 
-  </div>
-  <div class="body">
-    
-   
- 
-  
-    <div class="coverPage">
-        <DIV class="full-menu">
-            <nav id="menu">
-              <ul>
-                <li><a href="#gallery"class="items"onclick="closemenu()">Gallery</a></li>
-                <li><a href="#aboutUs"class="items"onclick="closemenu()">About Us</a></li>
-               <li><a href="#"class="items"onclick="closemenu()">THIRD</a></li>
-               <li><a href="#testimonial"class="items"onclick="closemenu()">Testimonials</a></li>
-               <li><a href="#contact"class="items"onclick="closemenu()">Contact Us</a></li>
-               <li class="login-button"><a href="DEV.D1/login.html" class="login-link" >LOGIN</a></li>
-              </ul>
-              <p class="menu1">Menu</p>
-    
-              <svg onclick="closemenu()" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
-                <path d="M 9.15625 6.3125 L 6.3125 9.15625 L 22.15625 25 L 6.21875 40.96875 L 9.03125 43.78125 L 25 27.84375 L 40.9375 43.78125 L 43.78125 40.9375 L 27.84375 25 L 43.6875 9.15625 L 40.84375 6.3125 L 25 22.15625 Z"></path>
-                </svg>
-              <!-- <img src="" class="close" alt="bento" onclick="closemenu()"> -->
-            </nav>
-            
-          </DIV>
-          
-       <div class="menuClass"> 
-        <svg class="menu" fill="#000000" width="800px" height="800px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" onclick="openmenu()">
-            <path d="M0 0h4v4H0V0zm0 6h4v4H0V6zm0 6h4v4H0v-4zM6 0h4v4H6V0zm0 6h4v4H6V6zm0 6h4v4H6v-4zm6-12h4v4h-4V0zm0 6h4v4h-4V6zm0 6h4v4h-4v-4z" fill-rule="evenodd"/>
-        </svg>
-            </div>
-            <div class="wrapper">
-            
-            <div class="title"><h1>Alpine<br>Peaks</h1></div></div>
-    </div>
-
-   
-  <!-- carousal -->
-  <div class="carousal-container" id="gallery">
-    <div class="carousal-title"><h2>Gallery</h2></div>
-    <div class="carousal-subcontainer">
-  <div id="splide" class="splide">
-    <div class="splide__track">
-      <ul class="splide__list">
-        <li class="splide__slide"><img src="https://cdn.pixabay.com/photo/2019/12/06/05/46/alpine-village-4676673_1280.jpg"></li>
-        <li class="splide__slide"><img src="https://images.unsplash.com/photo-1616429553002-faf23468952d?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></li>
-        <li class="splide__slide"><img src="https://images.unsplash.com/photo-1612645213559-6af1d4edeaf8?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></li>
-        <li class="splide__slide"><img src="https://images.unsplash.com/photo-1641933002658-c7f4d2be614a?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></li>
-        <li class="splide__slide"><img src="https://cdn.pixabay.com/photo/2016/11/18/14/05/brick-wall-1834784_1280.jpg"></li>
-        <li class="splide__slide"><img src="https://images.unsplash.com/photo-1516706443377-10e1c05a3346?auto=format&fit=crop&q=80&w=2068&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></li>    
-        <li class="splide__slide"><img src="https://images.unsplash.com/photo-1583417267826-aebc4d1542e1?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></li>   
-        <li class="splide__slide"><img src="https://cdn.pixabay.com/photo/2023/04/11/16/04/solar-wind-7917659_1280.jpg"></li>   
-    
-    </ul>
-    </div>
-  </div></div></div>
-
-  
-<!-- carousal --> 
+	</div>
+	<div class="body">
 
 
 
-    <div class="aboutUs" id="aboutUs">
-        <div class="smalrect">
-          <div class="about-container">
-              <div class="heading"><h2>About Us</h2></div>
-        
-       <div class="paraWrapper">
-        <div class="txt">
-        <p>Nestled high in the breathtakingly beautiful snow-covered peaks, Alpine Peaks Resort is your ultimate winter wonderland getaway. We are not just a resort; we're an immersive experience, offering you a thrilling blend of adventure and relaxation. Whether you're an adrenaline junkie, a nature enthusiast, or simply seeking tranquility amidst the snow-capped mountains, Alpine Peaks has something for everyone.</p>
-        <br>
-        <p>If you're a snowsports enthusiast, you're in for a treat. Our resort boasts some of the best skiing and snowboarding slopes in the region. With meticulously groomed trails for all skill levels, from beginners to experts, you can carve down the mountainside with confidence. Lessons and equipment rentals are available, ensuring that everyone can join in the snowy fun.</p>
-        </div>
-        </div>
-       </div>
-    </div>
-</div>
-  
 
-    <!-- suites -->
-     <div class="con">
-    <!--<div class="roomheading">
-        <h1>Suites</h1>
-    </div> -->
-    <div class="roomcontainer" style="margin: 0px;">
-        <div class="roomgallery" style="background-color: black;">   
-            <div class="roombox row2" id="roombox1" style="background-image:url(https://i.pinimg.com/564x/e5/e4/23/e5e423204d49ece4c33a4941643d27a6.jpg);">
-                <p class="roomtext" id="roomtext1" >Deluxe</p>
-                <div class="roomoverlay" id="roomoverlay1">
-                    <div class="roomoverlaycontainer">
-                        <p class="imgroomtext">A classical minimalist style suite with high quality materials. Deluxe suites are recommended for people who like spacious accommodation at a reasonable price. </p>
-                        <a href="booking.html" style="text-decoration: none;"><button class="roombookbutton" id="roombookbutton1">Book Now</button></a>
-                    </div>
-                </div>
-            </div>
-            <div class="roombox col2" id="roombox2" style="background-image:url(test-files/grid/executive1.png) ;" >
-                <p class="roomtext" id="roomtext2">Executive</p>
-                <div class="roomoverlay" id="roomoverlay2">
-                    <div class="roomoverlaycontainer">
-                        <p class="imgroomtext">Executive suite is perfect suite type for top managers, business men and women because these suites are combining together a fully serviced office, meeting room and a luxurious hotel room together</p>
-                        <a href="booking.html" style="text-decoration: none;"><button class="roombookbutton" id="roombookbutton2">Book Now</button></a>
-                    </div>               
-                </div>
-            </div>
-            <div class="roombox" id="roombox3" style="background-image:url(test-files/grid/family1.png) ;" >
-                <p class="roomtext" id="roomtext3">Family</p>
-                <div class="roomoverlay" id="roomoverlay3">
-                    <div class="roomoverlaycontainer">
-                        <p class="imgroomtext " id="imgroomtext3">All about space and comfort, featuring a separate living that gives family members that extra bit of privacy</p>
-                        <a href="booking.html" style="text-decoration: none;"><button class="roombookbutton" id="roombookbutton3">Book Now</button></a>
-                    </div>               
-                </div>
-            </div>
-            <div class="roombox row2" id="roombox4" style="background-image:url(https://i.pinimg.com/564x/90/b9/4a/90b94ae9244d5d7042a455a449373a99.jpg) ;background-position-x: -15px;background-size: cover; background-repeat: no-repeat;" >                <p class="roomtext " id="roomtext4">Penthouse</p>
-                <div class="roomoverlay" id="roomoverlay4">
-                    <div class="roomoverlaycontainer">
-                        <p class="imgroomtext">If you like big terraces with wonderful view and you like to spend most of your time outside instead of inside in your vacation, terrace suite will be perfect for you</p>
-                        <a href="booking.html" style="text-decoration: none;"><button class="roombookbutton" id="roombookbutton4">Book Now</button></a>
-                    </div>               
-                </div>
-            </div>
-            <div class="roombox col2" id="roombox5" style="background-image:url(test-files/grid/platinum1.png) ;" >
-                <p class="roomtext" id="roomtext5">Platinum</p>
-                <div class="roomoverlay" id="roomoverlay5">
-                    <div class="roomoverlaycontainer">
-                        <p class="imgroomtext">Offering elegant, stylish and super luxurious interior in the best location of the hotel related to view and privacy with ton of complimentary services</p>
-                        <a href="booking.html" style="text-decoration: none;"><button class="roombookbutton" id="roombookbutton5">Book Now</button></a>
-                    </div>               
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-    <!-- suites -->
+		<div class="coverPage">
+			<DIV class="full-menu">
+				<nav id="menu">
+					<ul>
+						<li><a href="#gallery" class="items" onclick="closemenu()">Gallery</a></li>
+						<li><a href="#aboutUs" class="items" onclick="closemenu()">About Us</a></li>
+						<li><a href="#" class="items" onclick="closemenu()">THIRD</a></li>
+						<li><a href="#testimonial" class="items" onclick="closemenu()">Testimonials</a></li>
+						<li><a href="#contact" class="items" onclick="closemenu()">Contact Us</a></li>
+						<li class="login-button"><a href="DEV.D1/login.html" class="login-link">LOGIN</a></li>
+					</ul>
+					<p class="menu1">Menu</p>
 
-  
+					<svg onclick="closemenu()" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100"
+						height="100" viewBox="0 0 50 50">
+						<path
+							d="M 9.15625 6.3125 L 6.3125 9.15625 L 22.15625 25 L 6.21875 40.96875 L 9.03125 43.78125 L 25 27.84375 L 40.9375 43.78125 L 43.78125 40.9375 L 27.84375 25 L 43.6875 9.15625 L 40.84375 6.3125 L 25 22.15625 Z">
+						</path>
+					</svg>
+					<!-- <img src="" class="close" alt="bento" onclick="closemenu()"> -->
+				</nav>
 
-    <div onclick="scrollToTop()" class="scrollTop view">
-      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" width="20px" height="20px"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-        <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/>
-      </svg></div>
+			</DIV>
 
-    
-  
+			<div class="menuClass">
+				<svg class="menu" fill="#000000" width="800px" height="800px" viewBox="0 0 16 16"
+					xmlns="http://www.w3.org/2000/svg" onclick="openmenu()">
+					<path
+						d="M0 0h4v4H0V0zm0 6h4v4H0V6zm0 6h4v4H0v-4zM6 0h4v4H6V0zm0 6h4v4H6V6zm0 6h4v4H6v-4zm6-12h4v4h-4V0zm0 6h4v4h-4V6zm0 6h4v4h-4v-4z"
+						fill-rule="evenodd" />
+				</svg>
+			</div>
+			<div class="wrapper">
 
-<!-- Testimonials -->
-<div class="titlecon" id="testimonial">
-    <h2>Testimonials</h2>
-<div class="full-size">
-    <!-- <h2>Testimonials</h2> -->
-  <div class="container-t">
-      <div class="indicator">
-          <span class="tbtn active"></span>
-          <span class="tbtn"></span>
-          <span class="tbtn"></span>
-          <span class="tbtn"></span>
-      </div>
-      <div class="testimonial">
-          <div class="slide-row" id="slide">
-              
-              <div class="slide-col">
-                  <div class="user-text">
-                      <p>10/10 resort. Got to spend a lot of quality time with my soulmate (rayan daddi). V ambient and private #whatAreWomen </p>
-                      <h3>Amogh Padukone</h3>
-                  </div>
-                  <div class="user-img">
-                      <img src="images/amog.jpg">
-                  </div>
-              </div>
-              <div class="slide-col">
-                  <div class="user-text">
-                      <p>Couldn't care less. Dead from within. Been doing Python+psql all my life.</p>
-                      <h3>Viraj "backend" Sazzala</h3>
-                  </div>
-                  <div class="user-img">
-                      <img src="images/sazz.jpg">
-                  </div>
-              </div>
-              <div class="slide-col">
-                <div class="user-text">
-                    <p>Pathetic resort! Too much grass on the lawns(i play League). Too many members of the female species. 0/10 rating</p>
-                    <h3>Rayan Sheikh (professional foot critique)</h3>
-                </div>
-                <div class="user-img">
-                    <img src="images/ryanide.webp">
-                </div>
-            </div>
-              <div class="slide-col">
-                  <div class="user-text">
-                      <p>Ya'll need to take better care of your social medias</p>
-                      <h3>WebDev41🫶</h3>
-                  </div>
-                  <div class="user-img">
-                      <img src="images/cap.jpg">
-                  </div>
-              </div>
-              
-          </div>
-      </div>
-  </div>    
-  </div>
-</div>
-<!-- Testimonials -->
+				<div class="title">
+					<h1>Alpine<br>Peaks</h1>
+				</div>
+			</div>
+		</div>
 
 
-<!-- contact Us -->
-<section class="contact" id="contact">
-  <div class="content">
-      <h2>Contact Us</h2>
-      <p>We're here to assist you. Please feel free to get in touch with us through the options below!</p>
-  </div>
-  <div class="container">
-      <div class="contactInfo">
-          <div class="box">
-             <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div> 
-            
-              <div class="text">
-                  <h3>Address</h3>
-                  <p>KR Puram, Bangalore</p>
-              </div>
-          </div>
-          <div class="box">
-              
-             <div class="icon"><i class="fa fa-phone-square" aria-hidden="true"></i></div>
-              <div class="text">
-                  <h3>Phone</h3>
-                  <p>+91 81053 80685</p>
-              </div>
-          </div>
-          <div class="box">
-              
-             <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
-              <div class="text">
-                  <h3>Email</h3>
-                  <p>rayanrafisheikh@gmail.com</p>
-              </div>
-          </div>
-      </div>
-      <div class="contactForm">
-          <form>
-              <h2>Send Message</h2>
-              <div class="inputBox">
-                  <input type="text" name="" required="required">
-                  <span>Full Name</span>
-              </div>
-              <div class="inputBox">
-                  <input type="text" name="" required="required">
-                  <span>Email</span>
-              </div> 
-              <div class="inputBox">
-                  <textarea required="required"></textarea>
-                  <span>Type Your Message....</span>
-              </div> 
-              <div class="inputBox">
-                  <input type="submit" name="" value="Send">
-              </div>              
-          </form>
-      </div>
-  </div>
+		<!-- carousal -->
+		<div class="carousal-container" id="gallery">
+			<div class="carousal-title">
+				<h2>Gallery</h2>
+			</div>
+			<div class="carousal-subcontainer">
+				<div id="splide" class="splide">
+					<div class="splide__track">
+						<ul class="splide__list">
+							<li class="splide__slide"><img
+									src="https://cdn.pixabay.com/photo/2019/12/06/05/46/alpine-village-4676673_1280.jpg">
+							</li>
+							<li class="splide__slide"><img
+									src="https://images.unsplash.com/photo-1616429553002-faf23468952d?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+							</li>
+							<li class="splide__slide"><img
+									src="https://images.unsplash.com/photo-1612645213559-6af1d4edeaf8?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+							</li>
+							<li class="splide__slide"><img
+									src="https://images.unsplash.com/photo-1641933002658-c7f4d2be614a?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+							</li>
+							<li class="splide__slide"><img
+									src="https://cdn.pixabay.com/photo/2016/11/18/14/05/brick-wall-1834784_1280.jpg">
+							</li>
+							<li class="splide__slide"><img
+									src="https://images.unsplash.com/photo-1516706443377-10e1c05a3346?auto=format&fit=crop&q=80&w=2068&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+							</li>
+							<li class="splide__slide"><img
+									src="https://images.unsplash.com/photo-1583417267826-aebc4d1542e1?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+							</li>
+							<li class="splide__slide"><img
+									src="https://cdn.pixabay.com/photo/2023/04/11/16/04/solar-wind-7917659_1280.jpg">
+							</li>
 
-</section>
-<!-- contact Us -->
-<!-- <hr> -->
-<!-- footer -->
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
 
-<footer>
-  <div class="footer">
-  <div class="row">
-  <a href="https://youtu.be/dQw4w9WgXcQ?feature=shared"><i class="fa fa-facebook"></i></a>
-  <a href="https://youtu.be/dQw4w9WgXcQ?feature=shared"><i class="fa fa-instagram"></i></a>
-  <a href="https://youtu.be/dQw4w9WgXcQ?feature=shared"><i class="fa fa-youtube"></i></a>
-  <a href="https://youtu.be/dQw4w9WgXcQ?feature=shared"><i class="fa fa-twitter"></i></a>
-  </div>
-  
-  <div class="row">
-  <ul>
-  <li><a href="https://youtu.be/dQw4w9WgXcQ?feature=shared">Contact us</a></li>
-  <li><a href="https://youtu.be/dQw4w9WgXcQ?feature=shared">Our Services</a></li>
-  <li><a href="https://youtu.be/dQw4w9WgXcQ?feature=shared">Privacy Policy</a></li>
-  <li><a href="https://youtu.be/dQw4w9WgXcQ?feature=shared">Terms & Conditions</a></li>
-  <li><a href="#"  onclick="bonk()">Sauce Codes</a></li>
-  </ul>
-  </div>
-  
-  <div class="row">
-  ALPINE PEAKS Copyright © 2023 Alpine Peaks - All rights reserved || Made with &lt3
-  </div>
-  </div>
-  </footer>
+
+		<!-- carousal -->
 
 
 
-</div>
-<!-- scripts -->
+		<div class="aboutUs" id="aboutUs">
+			<div class="smalrect">
+				<div class="about-container">
+					<div class="heading">
+						<h2>About Us</h2>
+					</div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="carousal.js"></script>
-<script>
-$('.body').hide();
-    $(window).on({
-        load: function () {
-            $('.pre').hide();
-            $('.body').show();
-    
-        }
-    })</script>
-<script>
-function bonk(){
-    document.querySelector(".bonk").style.display="block"
-    document.querySelector(".body").style.display="none"
-}
-  var loader=document.querySelector("loader");
-    
-    // window.addEventListener('load', function(){
-    //   loader.style.display="none";
-    // });
-
-    var menu = document.getElementById("menu") 
-
-    function closemenu(){
-      menu.style.top= "-100vh";
-      setTimeout(() => {
-        document.body.classList.remove('overflow-class')
-      }, 500);
-      
-    }
-    function openmenu(){
-      menu.style.top= "0";
-      document.body.classList.add('overflow-class')
-    }
-
-    function scrollToTop(){
-      window.scrollTo({top:0,behaviour:"smooth"});
-      closemenu();
-
-    }
-    window.addEventListener('scroll', e => {
-     
-      document.querySelector(".view").style.display = window.scrollY > 100 ? 'display' : 'flex';
-      
-      document.querySelector(".view").style.display = window.scrollY > 0 ? 'display' : 'none';
-    });
-
-    
-   
+					<div class="paraWrapper">
+						<div class="txt">
+							<p>Nestled high in the breathtakingly beautiful snow-covered peaks, Alpine Peaks Resort is
+								your ultimate winter wonderland getaway. We are not just a resort; we're an immersive
+								experience, offering you a thrilling blend of adventure and relaxation. Whether you're
+								an adrenaline junkie, a nature enthusiast, or simply seeking tranquility amidst the
+								snow-capped mountains, Alpine Peaks has something for everyone.</p>
+							<br>
+							<p>If you're a snowsports enthusiast, you're in for a treat. Our resort boasts some of the
+								best skiing and snowboarding slopes in the region. With meticulously groomed trails for
+								all skill levels, from beginners to experts, you can carve down the mountainside with
+								confidence. Lessons and equipment rentals are available, ensuring that everyone can join
+								in the snowy fun.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
 
-        // testimonial page
-        var tbtn = document.getElementsByClassName("tbtn");
-            var slide = document.getElementById("slide");
-            // var arr=[0,-800,-1600,-2400]
-            // for(i=0;i<4;i++)
-            // {   
-            //     setInterval(() => {
-            //         slide.style.transform = "translateX("+arr[i]+"px)";
-            //         for(j=0;j<4;j++){
-            //         tbtn[j].classList.remove("active");  
-            //         }
-            //         tbtn[i+1].classList.add("active"); 
-            //     }, 3000);
-            // }
-        
+		<!-- suites -->
+		<div class="con">
+			<!--<div class="roomheading">
+		<h1>Suites</h1>
+	</div> -->
+			<div class="roomcontainer" style="margin: 0px;">
+				<div class="roomgallery" style="background-color: black;">
+					<div class="roombox row2" id="roombox1"
+						style="background-image:url(https://i.pinimg.com/564x/e5/e4/23/e5e423204d49ece4c33a4941643d27a6.jpg);">
+						<p class="roomtext" id="roomtext1">Deluxe</p>
+						<div class="roomoverlay" id="roomoverlay1">
+							<div class="roomoverlaycontainer">
+								<p class="imgroomtext">A classical minimalist style suite with high quality materials.
+									Deluxe suites are recommended for people who like spacious accommodation at a
+									reasonable price. </p>
+								<a href="booking.html" style="text-decoration: none;"><button class="roombookbutton"
+										id="roombookbutton1">Book Now</button></a>
+							</div>
+						</div>
+					</div>
+					<div class="roombox col2" id="roombox2"
+						style="background-image:url(test-files/grid/executive1.png) ;">
+						<p class="roomtext" id="roomtext2">Executive</p>
+						<div class="roomoverlay" id="roomoverlay2">
+							<div class="roomoverlaycontainer">
+								<p class="imgroomtext">Executive suite is perfect suite type for top managers, business
+									men and women because these suites are combining together a fully serviced office,
+									meeting room and a luxurious hotel room together</p>
+								<a href="booking.html" style="text-decoration: none;"><button class="roombookbutton"
+										id="roombookbutton2">Book Now</button></a>
+							</div>
+						</div>
+					</div>
+					<div class="roombox" id="roombox3" style="background-image:url(test-files/grid/family1.png) ;">
+						<p class="roomtext" id="roomtext3">Family</p>
+						<div class="roomoverlay" id="roomoverlay3">
+							<div class="roomoverlaycontainer">
+								<p class="imgroomtext " id="imgroomtext3">All about space and comfort, featuring a
+									separate living that gives family members that extra bit of privacy</p>
+								<a href="booking.html" style="text-decoration: none;"><button class="roombookbutton"
+										id="roombookbutton3">Book Now</button></a>
+							</div>
+						</div>
+					</div>
+					<div class="roombox row2" id="roombox4"
+						style="background-image:url(https://i.pinimg.com/564x/90/b9/4a/90b94ae9244d5d7042a455a449373a99.jpg) ;background-position-x: -15px;background-size: cover; background-repeat: no-repeat;">
+						<p class="roomtext " id="roomtext4">Penthouse</p>
+						<div class="roomoverlay" id="roomoverlay4">
+							<div class="roomoverlaycontainer">
+								<p class="imgroomtext">If you like big terraces with wonderful view and you like to
+									spend most of your time outside instead of inside in your vacation, terrace suite
+									will be perfect for you</p>
+								<a href="booking.html" style="text-decoration: none;"><button class="roombookbutton"
+										id="roombookbutton4">Book Now</button></a>
+							</div>
+						</div>
+					</div>
+					<div class="roombox col2" id="roombox5"
+						style="background-image:url(test-files/grid/platinum1.png) ;">
+						<p class="roomtext" id="roomtext5">Platinum</p>
+						<div class="roomoverlay" id="roomoverlay5">
+							<div class="roomoverlaycontainer">
+								<p class="imgroomtext">Offering elegant, stylish and super luxurious interior in the
+									best location of the hotel related to view and privacy with ton of complimentary
+									services</p>
+								<a href="booking.html" style="text-decoration: none;"><button class="roombookbutton"
+										id="roombookbutton5">Book Now</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- suites -->
 
 
-            tbtn[0].onclick=function(){
-                slide.style.transform = "translateX(0px)";
-                for(i=0;i<4;i++){
-                    tbtn[i].classList.remove("active");  
-                }
-                this.classList.add("active");
-            }
-            tbtn[1].onclick=function(){
-                slide.style.transform = "translateX(-800px)";
-                for(i=0;i<4;i++){
-                    tbtn[i].classList.remove("active");  
-                }
-                this.classList.add("active");
-            }
-            tbtn[2].onclick=function(){
-                slide.style.transform = "translateX(-1600px)";
-                for(i=0;i<4;i++){
-                    tbtn[i].classList.remove("active");  
-                }
-                this.classList.add("active");
-            }
-            tbtn[3].onclick=function(){
-                slide.style.transform = "translateX(-2400px)";
-                for(i=0;i<4;i++){
-                    tbtn[i].classList.remove("active");  
-                }
-                this.classList.add("active");
-            }
-        // testimonial page
- </script>
-<script src='https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.6/dist/js/splide.min.js'></script><script  src="carousal.js"></script>
+
+		<div onclick="scrollToTop()" class="scrollTop view">
+			<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" width="20px"
+				height="20px"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+				<path
+					d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z" />
+			</svg>
+		</div>
+
+
+
+
+		<!-- Testimonials -->
+		<div class="titlecon" id="testimonial">
+			<h2>Testimonials</h2>
+			<div class="full-size">
+				<!-- <h2>Testimonials</h2> -->
+				<div class="container-t">
+					<div class="indicator">
+						<span class="tbtn active"></span>
+						<span class="tbtn"></span>
+						<span class="tbtn"></span>
+						<span class="tbtn"></span>
+					</div>
+					<div class="testimonial">
+						<div class="slide-row" id="slide">
+
+							<div class="slide-col">
+								<div class="user-text">
+									<p>10/10 resort. Got to spend a lot of quality time with my soulmate (rayan daddi).
+										V ambient and private #whatAreWomen </p>
+									<h3>Amogh Padukone</h3>
+								</div>
+								<div class="user-img">
+									<img src="images/amog.jpg">
+								</div>
+							</div>
+							<div class="slide-col">
+								<div class="user-text">
+									<p>Couldn't care less. Dead from within. Been doing Python+psql all my life.</p>
+									<h3>Viraj "backend" Sazzala</h3>
+								</div>
+								<div class="user-img">
+									<img src="images/sazz.jpg">
+								</div>
+							</div>
+							<div class="slide-col">
+								<div class="user-text">
+									<p>Pathetic resort! Too much grass on the lawns(i play League). Too many members of
+										the female species. 0/10 rating</p>
+									<h3>Rayan Sheikh (professional foot critique)</h3>
+								</div>
+								<div class="user-img">
+									<img src="images/ryanide.webp">
+								</div>
+							</div>
+							<div class="slide-col">
+								<div class="user-text">
+									<p>Ya'll need to take better care of your social medias</p>
+									<h3>WebDev41🫶</h3>
+								</div>
+								<div class="user-img">
+									<img src="images/cap.jpg">
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Testimonials -->
+
+
+		<!-- contact Us -->
+		<section class="contact" id="contact">
+			<div class="content">
+				<h2>Contact Us</h2>
+				<p>We're here to assist you. Please feel free to get in touch with us through the options below!</p>
+			</div>
+			<div class="container">
+				<div class="contactInfo">
+					<div class="box">
+						<div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+
+						<div class="text">
+							<h3>Address</h3>
+							<p>KR Puram, Bangalore</p>
+						</div>
+					</div>
+					<div class="box">
+
+						<div class="icon"><i class="fa fa-phone-square" aria-hidden="true"></i></div>
+						<div class="text">
+							<h3>Phone</h3>
+							<p>+91 81053 80685</p>
+						</div>
+					</div>
+					<div class="box">
+
+						<div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+						<div class="text">
+							<h3>Email</h3>
+							<p>rayanrafisheikh@gmail.com</p>
+						</div>
+					</div>
+				</div>
+				<div class="contactForm">
+					<form>
+						<h2>Send Message</h2>
+						<div class="inputBox">
+							<input type="text" name="" required="required">
+							<span>Full Name</span>
+						</div>
+						<div class="inputBox">
+							<input type="text" name="" required="required">
+							<span>Email</span>
+						</div>
+						<div class="inputBox">
+							<textarea required="required"></textarea>
+							<span>Type Your Message....</span>
+						</div>
+						<div class="inputBox">
+							<input type="submit" name="" value="Send">
+						</div>
+					</form>
+				</div>
+			</div>
+
+		</section>
+		<!-- contact Us -->
+		<!-- <hr> -->
+		<!-- footer -->
+
+		<footer>
+			<div class="footer">
+				<div class="row">
+					<a href="https://youtu.be/dQw4w9WgXcQ?feature=shared"><i class="fa fa-facebook"></i></a>
+					<a href="https://youtu.be/dQw4w9WgXcQ?feature=shared"><i class="fa fa-instagram"></i></a>
+					<a href="https://youtu.be/dQw4w9WgXcQ?feature=shared"><i class="fa fa-youtube"></i></a>
+					<a href="https://youtu.be/dQw4w9WgXcQ?feature=shared"><i class="fa fa-twitter"></i></a>
+				</div>
+
+				<div class="row">
+					<ul>
+						<li><a href="https://youtu.be/dQw4w9WgXcQ?feature=shared">Contact us</a></li>
+						<li><a href="https://youtu.be/dQw4w9WgXcQ?feature=shared">Our Services</a></li>
+						<li><a href="https://youtu.be/dQw4w9WgXcQ?feature=shared">Privacy Policy</a></li>
+						<li><a href="https://youtu.be/dQw4w9WgXcQ?feature=shared">Terms & Conditions</a></li>
+						<li><a href="#" onclick="bonk()">Sauce Codes</a></li>
+					</ul>
+				</div>
+
+				<div class="row">
+					ALPINE PEAKS Copyright © 2023 Alpine Peaks - All rights reserved || Made with &lt3
+				</div>
+			</div>
+		</footer>
+
+
+
+	</div>
+	<!-- scripts -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+		integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="carousal.js"></script>
+	<script>
+		$('.body').hide();
+		$(window).on({
+			load: function () {
+				$('.pre').hide();
+				$('.body').show();
+
+			}
+		})</script>
+	<script>
+		function bonk() {
+			document.querySelector(".bonk").style.display = "block"
+			document.querySelector(".body").style.display = "none"
+		}
+		var loader = document.querySelector("loader");
+
+		// window.addEventListener('load', function(){
+		//   loader.style.display="none";
+		// });
+
+		var menu = document.getElementById("menu")
+
+		function closemenu() {
+			menu.style.top = "-100vh";
+			setTimeout(() => {
+				document.body.classList.remove('overflow-class')
+			}, 500);
+
+		}
+		function openmenu() {
+			menu.style.top = "0";
+			document.body.classList.add('overflow-class')
+		}
+
+		function scrollToTop() {
+			window.scrollTo({ top: 0, behaviour: "smooth" });
+			closemenu();
+
+		}
+		window.addEventListener('scroll', e => {
+
+			document.querySelector(".view").style.display = window.scrollY > 100 ? 'display' : 'flex';
+
+			document.querySelector(".view").style.display = window.scrollY > 0 ? 'display' : 'none';
+		});
+
+
+
+
+
+		// testimonial page
+		var tbtn = document.getElementsByClassName("tbtn");
+		var slide = document.getElementById("slide");
+		// var arr=[0,-800,-1600,-2400]
+		// for(i=0;i<4;i++)
+		// {
+		//     setInterval(() => {
+		//         slide.style.transform = "translateX("+arr[i]+"px)";
+		//         for(j=0;j<4;j++){
+		//         tbtn[j].classList.remove("active");
+		//         }
+		//         tbtn[i+1].classList.add("active");
+		//     }, 3000);
+		// }
+
+
+
+		tbtn[0].onclick = function () {
+			slide.style.transform = "translateX(0px)";
+			for (i = 0; i < 4; i++) {
+				tbtn[i].classList.remove("active");
+			}
+			this.classList.add("active");
+		}
+		tbtn[1].onclick = function () {
+			slide.style.transform = "translateX(-800px)";
+			for (i = 0; i < 4; i++) {
+				tbtn[i].classList.remove("active");
+			}
+			this.classList.add("active");
+		}
+		tbtn[2].onclick = function () {
+			slide.style.transform = "translateX(-1600px)";
+			for (i = 0; i < 4; i++) {
+				tbtn[i].classList.remove("active");
+			}
+			this.classList.add("active");
+		}
+		tbtn[3].onclick = function () {
+			slide.style.transform = "translateX(-2400px)";
+			for (i = 0; i < 4; i++) {
+				tbtn[i].classList.remove("active");
+			}
+			this.classList.add("active");
+		}
+		// testimonial page
+	</script>
+	<script src='https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.6/dist/js/splide.min.js'></script>
+	<script src="carousal.js"></script>
 
 </body>
+
 </html>
