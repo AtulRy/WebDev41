@@ -25,15 +25,15 @@
     /* text-align: center; */
 }
 .contact .content h2{
-    position: relative;
-    left: 80px;
+    /* position: relative;
+    left: 80px; */
     font-size: 50px;
     font-weight:500;
     color: #C5D2D8;
 }
 .contact .content p{
-    position: relative;
-    left: 80px;
+    /* position: relative;
+    left: 80px; */
  font-weight: 300;
  color: #C5D2D8;
  padding: 10px;
