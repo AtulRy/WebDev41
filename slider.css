@@ -12,7 +12,8 @@
    background-color: #192737;
   }
   .carousal-title{
-    width: 80%;
+    width: 90%;
+    padding-left: 50px;
     margin: 0px auto;
   }
   .carousal-container h2{

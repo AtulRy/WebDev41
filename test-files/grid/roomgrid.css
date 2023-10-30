@@ -30,8 +30,9 @@
     margin-top: 2px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: rgba(246, 246, 246, 0.84);
+    align-items: end;
+    background-color: #040D12;
+    height: 100vh;
 }
 
 .roomgallery{
@@ -49,6 +50,7 @@
     align-items: center;
     color: white;
     transition: all 1s ease-in-out;
+    
     
 }
 .roombox button:hover{
