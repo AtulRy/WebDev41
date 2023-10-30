@@ -1,38 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;1,6..96,500&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap'); */
 
-.roomheading h1{
+.roomheading h2{
     color: #C5D2D8;
-    
+    font-size: 100px;
+    font-weight: 500;
 }
 
 .con{
-        background-color: black;
+        /* background-color: black; */
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        
+        background-color: #040D12;
         /* font-family: 'Poppins',SANS-SERIF; */
+        padding-top: 30px;
  }
- .con p,.con h2{
+ .con p{
     font-family: "Bodoni Moda";
  }
 .roomheading{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     font-size: 1.5em;
     color:rgb(27,20,14);
     /* font-family: 'Poppins',SANS-SERIF; */
+    width: 90%;
+    margin: 0px auto;
+    padding-left: 80px;
+
 }
 .roomcontainer{
-    
+    padding-top: 30px;
     margin-top: 2px;
     display: flex;
     justify-content: center;
     /* align-items: end; */
-    background-color: #040D12;
-    height: 100vh;
+    
+    /* height: 100vh; */
 }
 
 .roomgallery{
