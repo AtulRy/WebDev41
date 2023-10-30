@@ -54,7 +54,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #ffffff;
     transition: all 1s ease-in-out;
     
     
@@ -87,7 +87,7 @@
 .imgroomtext{
     color: white;
     font-size:20px ;
-    font-weight: 550;
+    font-weight: 400;
     /* display: flex;
     justify-content: center;
     align-items: center; */
@@ -106,7 +106,7 @@
   color:rgb(27,20,14);
   outline: 1.5px solid rgb(27,20,14);
   border-radius: 20px;
-  font-weight: 600;
+  font-weight: 400;
 }
 #roombookbutton1{
     margin-top: 20px;
